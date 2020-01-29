@@ -6,6 +6,7 @@ git log --oneline                                      - посмотреть л
 
 git status                                       - посмотреть, что назначено к выгрузке в Локалку
 git remote add origin https://github.com/Antohnio123/Antohnio.git        - подключиться к моему репозиторию
+git clone https://github.com/aanikin/Python                         - скачать папку с чужого репозитория
 
 git branch -a                                        - увидеть все ветки
 git checkout -b admin                                 -  создать ветку admin и сразу на неё переключиться
