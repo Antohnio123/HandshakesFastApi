@@ -1,0 +1,17 @@
+git add .                              -  добавить в список назначенных к выгрузке ВСЕ файлы и папки
+git rm --cached blog/blog.php            - исключить из назначенных к выгрузке конкретный файл
+git commit -m "README file was changed"     - выгрузить в ЛОКАЛЬНЫЙ репозиторий файлы и  дать комментарий
+git push  -u origin master                   - из локального выгрузить ветку главную в репозиторий, подключенный как origin
+git log --oneline                                      - посмотреть лог по 1 строчке
+
+git status                                       - посмотреть, что назначено к выгрузке в Локалку
+git remote add origin https://github.com/Antohnio123/Antohnio.git        - подключиться к моему репозиторию
+
+git branch -a                                        - увидеть все ветки
+git checkout -b admin                                 -  создать ветку admin и сразу на неё переключиться
+git checkout forum                                     - переключиться на ветку форума
+
+git checkout 2a36c1b                                     - переключиться на версию с указанным ID
+git revert 7f6b500                                    -  отменить коммит с указанным ID
+git reset 9cf99cc --hard                                - нормально отбэкапиться к ID версии
+git merge forum                                       - слить текущую ветку и указанную (forum)
