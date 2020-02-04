@@ -1,7 +1,7 @@
 git add .                              -  добавить в список назначенных к выгрузке ВСЕ файлы и папки
 git rm --cached blog/blog.php            - исключить из назначенных к выгрузке конкретный файл
 git commit -m "README file was changed"     - выгрузить в ЛОКАЛЬНЫЙ репозиторий файлы и  дать комментарий
-git push  -u origin master                   - из локального выгрузить ветку главную в репозиторий, подключенный как origin
+git push  -u origin master                  - из локального выгрузить ветку главную в репозиторий, подключенный как origin
 git push                                      - краткая команда выгрузить из локалки в репозиторий
 git log --oneline                                      - посмотреть лог по 1 строчке
 
@@ -22,9 +22,11 @@ git merge forum                                       - слить текущу�
 
 
 Что нужно повторить позже?
-git remote add https://github.com/aanikin/Python    -  подключение к репозиторию АА Аникина
+git remote add   aanikin  https://github.com/aanikin/Python  -  подключение к репозиторию АА Аникина, где перед адресом стоит ИМЯ!
 PS D:\Python\aanikin\Python> git add Practice/a.makarov/test.py     - добавление папки, либо можно добавить всё
-PS D:\Python\aanikin\Python> git push
+git pull aanikin  master --allow-unrelated-histories     - скачать данные с репозитория АА Аникина
+
 ОШИБКА:
+PS D:\Python\aanikin\Python> git push -u aanikin --all
 remote: Permission to aanikin/Python.git denied to Antohnio123.
 fatal: unable to access 'https://github.com/aanikin/Python/': The requested URL returned error: 403
