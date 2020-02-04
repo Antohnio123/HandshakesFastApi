@@ -26,7 +26,4 @@ git remote add   aanikin  https://github.com/aanikin/Python  -  подключе
 PS D:\Python\aanikin\Python> git add Practice/a.makarov/test.py     - добавление папки, либо можно добавить всё
 git pull aanikin  master --allow-unrelated-histories     - скачать данные с репозитория АА Аникина
 
-ОШИБКА:
-PS D:\Python\aanikin\Python> git push -u aanikin --all
-remote: Permission to aanikin/Python.git denied to Antohnio123.
-fatal: unable to access 'https://github.com/aanikin/Python/': The requested URL returned error: 403
+PS D:\Python\aanikin\Python> git push -u aanikin --all    - ПОСЛЕ pull  закинуть измененные свои файлы
