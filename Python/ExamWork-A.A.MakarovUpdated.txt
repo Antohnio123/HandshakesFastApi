@@ -1,0 +1,333 @@
+1)  -3
+2) List, dictionary, set
+3) Да, допустимо
+4) [[3], 1, [3]] - лист из листа с одной тройкой, единицы и ещё одного листа с единственныйм элементом тройкой.
+5) Функторы - классы с определенным основным оператором. В Python - call. Работа функтора похожа на функцию. Мы вызываем его для реализации конкретного оператора.
+6) 1  и [1, 3, 2, 3, 4]
+7) Else писать в try-except можно
+8) Атрибуты класса в его объектах доступны как для вызова, так и для добавления через точку "."
+Чтобы заблокировать возможность создавать аттрибуты "на ходу", нужно в классе прописать слоты __slots__ для аттрибутов.
+Тогда иных атрибутов, кроме указанных в слотах, мы добавить не сможем.
+
+Практика:
+1)
+def Len(list):
+    I=0
+    for items in list:
+        I+=1
+    return I
+
+2) def Rev(listA):
+    res=[listA[len(listA)-1]]
+    i=len(listA)-2
+    for j in range (0, len(listA)):
+        res.append(listA[i])
+        i-=1
+    for i in range (0,len(listA)):
+        listA[i] = res[i]
+    return listA
+
+3) def Range (stop, start=0, step = 1):
+    if not isinstance(stop, int) or not isinstance(start, int) or not isinstance(step, int):
+        print ("Вы ввели не целые числа, программа закрывается")
+        exit(0)
+    if step ==0:
+        print("Вы ввели шаг = 0, это скучно, программа закрывается")
+        exit(0)
+    res = [start]
+    for i in range(1,stop):
+        res.append(start+i*step)
+    return res
+
+4) def Zagl (string):
+    Seq = string.split(' ')
+    print(Seq)
+    for i in range (0,len(Seq)):
+        Seq[i] = Seq[i].capitalize()
+    space=' '
+    string = space.join(Seq)
+    return string
+
+5) 
+# В задаче не говорится сделать СВОЙ метод, свою реализацию...  не запрещено использовать существующий метод .count
+# def count_symbol(string, sym):
+#     res=string.count(sym)
+#     return res
+# Если всё-таки нужно свою реализацию, то вот так:-----------------------------------------
+def count_symbol(string, sym):
+    L=list(string)
+    res=0
+    for n in L:
+        if n ==sym:
+            res+=1
+    return res
+# Код закончен, теперь проверка: ------------------------------------------------------------
+
+s = " a sdgdhgdhrthn,la sndgklja nga sgfa smndgksdg"
+print(count_symbol(s, 'a'))
+
+6)
+def myformat (string, *args):
+    simple = False
+    numerate = False
+    class WrongPositions(Exception):
+        pass
+    def Poscheck():
+        if simple == numerate == True:
+            raise WrongPositions()
+
+    if not isinstance(string, str):
+        print("Введённые аргументы не являются строками, передайте строки в функцию.")
+        return (1)
+    A=list(args)
+    S=list(string)                  # Перевели строку в лист знаков
+    Pos = []
+    i=0
+    while "{" in S and "}" in S:
+        Ind1 = S.index('{')
+        Ind2 = S.index('}')
+        # print(str(Ind1)+ "  " + str(Ind2))              # Проверка 1 - индексы
+        p = ''.join((S[Ind1:(Ind2 + 1)]))
+        # print(p)                                # Проверка 2
+        if p == "{}":
+            simple = True
+            try:
+                Poscheck()
+            except WrongPositions:
+                print(
+                    "В строке пристутствуют нумерованные и простые позиции, должно быть что-то одно, программа закрывается.")
+                exit(code=1)
+            S[Ind1:(Ind2 + 1)] = A[i]
+            i+=1
+        k = p.replace("{", "")
+        k = k.replace("}", "")
+        if k.isdigit():
+            numerate = True
+            try:
+                Poscheck()
+            except WrongPositions:
+                print(
+                    "В строке пристутствуют нумерованные и простые позиции, должно быть что-то одно, программа закрывается.")
+                exit(code=1)
+            S[Ind1:(Ind2 + 1)] = A[int(k)]
+    Res = ''.join(S)
+    return Res
+# Код завершён!  Ниже - проверка --------------------------------------------------------------------------
+
+s = "dfghdhsh {} jfsfjh {} shgs {} hsg   hfdgdfg"
+print(s.format('AAAA', 'BBBB', 'CCCC', 'DDDD'))
+print(myformat(s, 'AAAA', 'BBBB', 'CCCC', 'DDDD'))
+
+
+7) 
+import os
+def Copyfile(source, destination):
+    class NoSourceExeption(Exception):
+        pass
+    def sourcecheck(source):
+        if not os.path.exists(source):
+            raise NoSourceExeption()
+
+    class DestExeption(Exception):
+        pass
+
+    def destcheck(destination):
+        if os.path.exists(destination):
+            raise DestExeption()
+
+    try:
+        sourcecheck(source)
+        destcheck(destination)
+    except NoSourceExeption:
+        print('Источника не существует, программа закрывается')
+        exit()
+    except DestExeption:
+        print('Файл назначения уже существует, менять его мы не уполномочены, программа закрывается')
+        exit()
+
+    with open (source, "r+", encoding = 'utf-8') as Sfile:
+            r=Sfile.readlines()
+            with open(destination, "w+", encoding = 'utf-8') as Dfile:
+                Dfile.writelines(r)
+            
+
+s="source.txt"
+d = 'dest.txt'
+Copyfile(s, d)
+
+8)
+import os
+# Мой Pycharm не хочет импортировать файл copyfile, поэтому код copyfile приходится повторять... С импортом код будет в 2 раза короче.
+def copyfile(source, destination):
+    class NoSourceExeption(Exception):
+        pass
+    def sourcecheck(source):
+        if not os.path.exists(source):
+            raise NoSourceExeption()
+    class DestExeption(Exception):
+        pass
+    def destcheck(destination):
+        if os.path.exists(destination):
+            raise DestExeption()
+    try:
+        sourcecheck(source)
+        destcheck(destination)
+    except NoSourceExeption:
+        print('Источника не существует, программа закрывается')
+        exit()
+    except DestExeption:
+        print('Файл назначения уже существует, менять его мы не уполномочены, программа закрывается')
+        exit()
+    with open(source, "r+", encoding='utf-8') as Sfile:
+        r = Sfile.readlines()
+        with open(destination, "w+", encoding='utf-8') as Dfile:
+            Dfile.writelines(r)
+#*********************************************************************************************************
+def copydir(source, destination):
+    class NoSourceExeption(Exception):
+        pass
+    def sourcecheck(source):
+        if not os.path.exists(source):
+            raise NoSourceExeption()
+    class DestExeption(Exception):
+        pass
+    def destcheck(destination):
+        if os.path.exists(destination):
+            raise DestExeption()
+    try:
+        sourcecheck(source)
+        destcheck(destination)
+    except NoSourceExeption:
+        print('Источника не существует, программа закрывается')
+        exit()
+    except DestExeption:
+        print('Папка назначения уже существует, менять её мы не уполномочены, программа закрывается')
+        exit()
+
+    L=os.walk(source, topdown=True)
+    L=list(L)                               # Очень важно! Превращаем генератор os.walk в итерируемый лист? в самом генераторе нельзя использовать os.chdir, а в листе можно
+    os.mkdir(destination)
+    FullDest=os.path.abspath(destination)           # получаем абсолютный путь для папки назначения
+    FullSource = os.path.abspath(source)
+    for d in L:
+        print(d[0])
+        destD = d[0].split(source)[1]                # Находим подпуть подпапки в source (обрезая source)
+        os.chdir(os.path.join(FullDest, destD))            # Находим путь, соответствующий подпапке в source, но в destination
+        for i in d[1]:                      # Работает! несколько папок в одной создается
+            os.mkdir(i)
+
+        os.chdir(FullSource)
+        print(os.path.abspath(destD))
+        os.chdir(os.path.abspath(destD))
+        for k in d[2]:
+            destF = os.path.join(d[0], k).split(source)[1]
+            copyfile(k, os.path.join(FullDest, destF))
+
+
+s = "Testdir2\\"
+d = 'DestDir\\'
+copydir(s, d)
+
+
+9)
+class User:
+    name = "Unknown"
+    age = 0
+    def setName (self, name):
+        self.name = name
+    def getName (self):
+        return self.name
+    def setAge (self, age):
+        self.age = age
+    def getAge (self):
+        return self.age
+class Worker (User):
+    salary = 0
+    def setSalary  (self, salary):
+        self.salary=salary
+    def getSalary (self):
+        return self.salary
+John = Worker()
+John.setName("John")
+John.setAge(25)
+John.setSalary(1000)
+Jack = Worker()
+Jack.setName("Jack")
+Jack.setAge(26)
+Jack.setSalary(2000)
+SumSalary = Jack.getSalary() + John.getSalary()
+print (SumSalary)
+
+
+10)
+class Money(object):
+    value = 0.0
+    USDexRate=65.31
+    Rubles=True
+    def __str__(self):
+        A = self.value//1
+        B  = self.value%1*101
+        return (str(int(A))+","+str(int(B)))
+    def __add__(self, other):
+        self.value += other
+        return self.value
+    def __sub__(self, other):
+        self.value -= other
+        return self.value
+    def __mul__(self, other):
+        self.value *= other
+        return self.value
+    def __truediv__(self, other):
+        self.value /= other
+        return self.value
+    def __eq__(self, other):
+        return self.value==other
+    def __ne__(self, other):
+        return self.value != other
+    def __lt__(self, other):
+        return self.value < other
+    def __gt__(self, other):
+        return self.value > other
+    def __le__(self, other):
+        return self.value <= other
+    def __ge__(self, other):
+        return self.value >= other
+    def Compare(self, other):
+        if not isinstance(other, int) and not isinstance(other, float):
+            print('Вы ввели не число, сравнить нельзя')
+        elif self.value == other:
+            print ('Значение равно ' + str(other))
+        elif self.value > other:
+            print('Значение больше ' + str(other))
+        elif self.value < other:
+            print('Значение меньше ' + str(other))
+    def ChangeCurrency(self):
+        if self.Rubles:
+            self.value=self.value/self.USDexRate
+            print('Переведено из рублей в доллары, составляет ' + self.__str__() + ' доллара(ов)')
+        else:
+            self.value = self.value * self.USDexRate
+            print('Переведено из долларов в рубли, составляет ' + self.__str__() + ' рубля(ей)')
+        self.Rubles = not self.Rubles
+
+
+Salary = Money()
+Salary.value = float(input('Введите сумму Значения с копейками через точку:  '))
+print(Salary)
+Salary+4000
+print("Прибавим к Значению 4000, будет " + str(Salary))
+Salary-34547
+print("Вычтем из Значения 34547, будет " + str(Salary))
+Salary*3
+print("Умножим Значение на 3, будет " + str(Salary))
+Salary/2
+print("Разделим Значение на 2, будет " + str(Salary))
+
+k = float(input("Введите число, с которым сравнить Значение:  "))
+Salary.Compare(k)
+print('Значение равно '+ str(k) +"?  "+ str(Salary == k))
+print('Значение больше '+ str(k) +"?  "+ str(Salary >= k))
+print('Значение меньше '+ str(k) +"?  "+ str(Salary <= k))
+
+Salary.ChangeCurrency()
+Salary.ChangeCurrency()
