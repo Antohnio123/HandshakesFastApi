@@ -33,7 +33,7 @@ class WrapStrToFile(object):
     def __init__(self):
         self.Str = "тут должна была быть ошибка, но с функцией mstemp ошибки не бывает." \
                        "Бывает пустой файл. \n Но так как я написал эту строку, файл будет содежать как минимум её"
-        self.TMPFile, self.filepath =tempfile.mkstemp()
+        self.TMPFile, self.filepath = tempfile.mkstemp()
 
 
     @property

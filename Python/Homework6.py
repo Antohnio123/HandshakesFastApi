@@ -14,7 +14,7 @@ print ("\n Задача 2.")
 # В данном случае enumerate является излишним, так как он работает с индексами членов массива,
 # а нам нужны только их значения. Кроме того, переменная result - лишняя.
 
-def multiplier2 (m=1, source=[1,2,3]):
+def multiplier2 (m=1, source=[1, 2, 3]):
     for i in range(len(source)):
         source[i] = m * source[i]
     return source
