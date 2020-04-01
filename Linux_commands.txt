@@ -159,5 +159,71 @@ ip addr show			- другой вариант данных о сети
 route				- адреса пересылки пакетов в разных странах
 ping				- отослать пакеты на адрес, проверить ответ (пропинговать)
 
-	
 
+
+
+УСТАНОВКА ДОПОЛНЕНИЙ НА VBOX для открытия общих папок
+В VB настраиваем общие папки и затем проводим следующий команды:
+http://the-komp.ru/virtualbox-dopolneniya-gostevoj-os.html
+https://qna.habr.com/q/466840
+cd /media/cdrom    - или немного по-другому - перейти в сд-ром, перед уэтим через меню Vbox монтирвоав сд-ром с дополнениями
+sudo sh ./VBoxLinuxAdditions.run
+sudo adduser username vboxsf
+sudo reboot
+
+
+BASH SCRIPTS
+Формат файлов sh.
+Начинается всегда с
+№!/bin/bash
+а ниже обычные команды линукса, разделённые Enter или ;
+файлу скрипта надо дать возможность запускаться: chmod a+x myscript4.sh
+переменные пишутся в кавычках и со знаком $? затем пишется порядковый номер переменной. 
+$0 - название файла со скриптом, $1 - первая переменная и т.д.
+if [ "$1" == "Vasya" ]; then
+	echo "Privet $1"
+elif [ "$1" == "Trump" ]; then
+	echo "Hello $1"
+else echo "Zdarova, neznakomez, $1"
+fi				- конец if, тот же if, но наоборот...
+
+read -p "Please, enter something: " x
+echo "Starting CASE selection..."
+case $x in 
+	1) echo "This is one";;
+	[2-9]) echo "From two to nine";;
+	"Petya") echo "Privet, $x";;
+	*) echo "Parametr unknown"
+esac				- конец case, тот же case, но наоборот...
+
+COUNTER=0
+while [ $COUNTER -lt 10 ]; do
+	echo "Current counter is $COUNTER"
+	COUNTER=$(($COUNTER+1))
+	# let COUNTER+=1			- комментарий
+
+for myfile in `ls *.txt`; do
+	cat $myfile			- выведем содержание всех текстовых файлов
+done
+
+for x in {1...10}; do
+	echo "X = $x"
+done
+
+for (( i=1; i<=10; i++ )); do
+	echo "Nomer I = $i"
+done
+
+
+summa=0				- задаем переменную, в которую функция будет выдавать рещультат.
+т.к. функция в bash не может возвращать рещультат просто так
+myFunction()			- задаём функцию
+{
+	echo "This is a text from Function!"
+	echo "First parametr is $1"
+	echo "Second parametr is $2"
+	summa=$(($1+$2))
+}
+
+myFunction 50 vasya			- вызываем функцию
+"Summa = $summa"			- выводим изменившуюся переменную
