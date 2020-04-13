@@ -30,3 +30,19 @@ PS D:\Python\aanikin\Python> git add Practice/a.makarov/test.py     - добав
 git pull aanikin  master --allow-unrelated-histories     - скачать данные с репозитория АА Аникина
 
 PS D:\Python\aanikin\Python> git push -u aanikin --all    - ПОСЛЕ pull  закинуть измененные свои файлы
+
+
+Merge							- Слияние веток
+$ git checkout <feature>
+$ git merge master
+(or)
+$ git merge master <feature>
+
+Rebase 							- Перебазирвоание одной ветки в другую (мастера в <feature>). 
+ОСТОРОЖНО!   Перезаписывает историю, срывает связи с удаленными ветками (требуется новый пуш)
+$ git checkout <feature>
+$ git rebase -i master				- Это откроет редактор, перечислив все коммиты, которые будут перемещены.
+Это точно определяет, как будет выглядеть ветка после выполнения перемещения.
+Упорядочивая объекты, вы можете сделать историю такой, как захотите. Вы можете использовать команды fixup, squash, edit, и так далее
+$ git checkout <feature>
+$ git rebase master
