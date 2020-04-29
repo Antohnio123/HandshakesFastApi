@@ -1,0 +1,2042 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+На странице стили подключаются:
+1) <p style="..."></p>
+2)
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1251">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="CSS.files/filelist.xml">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Антон Макаров</o:Author>
+  <o:LastAuthor>Антон Макаров</o:LastAuthor>
+  <o:Revision>36</o:Revision>
+  <o:TotalTime>173</o:TotalTime>
+  <o:Created>2020-04-24T12:25:00Z</o:Created>
+  <o:LastSaved>2020-04-24T15:36:00Z</o:LastSaved>
+  <o:Pages>3</o:Pages>
+  <o:Words>646</o:Words>
+  <o:Characters>3687</o:Characters>
+  <o:Company>diakov.net</o:Company>
+  <o:Lines>30</o:Lines>
+  <o:Paragraphs>8</o:Paragraphs>
+  <o:CharactersWithSpaces>4325</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=dataStoreItem href="CSS.files/item0006.xml"
+target="CSS.files/props007.xml">
+<link rel=themeData href="CSS.files/themedata.thmx">
+<link rel=colorSchemeMapping href="CSS.files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:Zoom>90</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>RU</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="371">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<link rel=Stylesheet type="text/css" media=all href=url>
+<style>
+<!--
+...
+	
+:
+
+для всех модулей определенного типа:
+p {свойство: значение;	свойство: значение;	свойство: значение;	...}
+для поименованных модулей ( class="specialselectorname")
+.specialselectorname {свойство: значение;	свойство: значение;	свойство: значение;	...}
+# в имени селектора вместо точки (#selectorName)- это будет стиль УНИКАЛЬНОГО элемента.
+Это позволит JavaScript находить данный элемент.
+
+h1 + p  { ... }
+- совмещённый селектор для параграфа, вложенного в h1 и непосредственно идут за h1
+h2 ~ p  { ... }
+- параграфы, находящиеся рядом с h2 на одном уровне вложенности
+div > h1  { ... }
+- все h1, яляющиеся ПРЯМЫМИ потомками div, без посредников
+.class1.class3   { ... }
+- создается дочерний класс 3, наследующий всё от класса 1, но в нем можно что-то добавить и/или переназначить
+a[href^="http://"]{ ... }
+- селектор для ссылки ТОЛЬКО с указанными атрибутами
+Преимущетсво всегда имеет inline стиль, затем описанный ниже по коду, ближе к блоку:
+глобальный, или из отдельного файла css, смотря кто в header ниже написан.
+
+
+
+Примеры записи стилей:
+font: italic bold 14px Arial;
+background-image: url(./images/img1.png), url(./images/img2.png);
+картинка 1 наложится на картинку 2
+
+background-repeat: no-repeat;
+не повторяться фоновой картинке, 
+repeat-x, repeat-y, 
+space, 					равномерно размещает картинки с пробелами между ними
+round					!! размещает целое число картинок (без разрезов, но с растягиванием)
+background-size: contain			масштабирует картинку сохраняя пропорции так, чтобы она полностью поместилась в элемент, у элемента может остаться пустое пространство
+cover						установит картинку так, чтобы она полностью заняла элемент, но отчатси не поместится
+background-attachment: scroll			скроллится ли фон?  scroll - скроллится, fixed - фиксированный, local - в зависимости от поведения элемента
+background-origin: padding-box			ставится к краю элемента с учётом толщины границы
+border-box				относительно границы
+content-box				относительно контента
+
+border-image: url(./images/img1.png) 40 round round;
+углы картинки ставим в качестве границ элемента, вырезая их как квадраты со стороной 40 pxl
+transparent						атрибут для прозрачной рамки
+border-radius: 70px 50px 70px 40px/20px;
+скругление 4 углов элемента рамкой
+outline: 2px solid blue;
+внешняя граница элемента, не влияет на размер элемента, ставится для всех сторон
+border-right: 3px dotted darkorange;
+рамка правая, 3 пикселя, пунктирная, оранжевая
+
+
+
+
+
+
+
+
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610610945 1073750107 16 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.a, li.a, div.a
+	{mso-style-name:Код;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Код Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Verdana",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:#7030A0;}
+span.a0
+	{mso-style-name:"Код Знак";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Код;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Verdana",sans-serif;
+	mso-ascii-font-family:Verdana;
+	mso-hansi-font-family:Verdana;
+	mso-bidi-font-family:"Times New Roman";
+	color:#7030A0;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 42.5pt 2.0cm 3.0cm;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Обычная таблица";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:8.0pt;
+	mso-para-margin-left:0cm;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+table.MsoTableGrid
+	{mso-style-name:"Сетка таблицы";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-priority:39;
+	mso-style-unhide:no;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+table.MsoTable15Plain1
+	{mso-style-name:"Таблица простая 1";
+	mso-tstyle-rowband-size:1;
+	mso-tstyle-colband-size:1;
+	mso-style-priority:41;
+	mso-style-unhide:no;
+	border:solid #BFBFBF 1.0pt;
+	mso-border-themecolor:background1;
+	mso-border-themeshade:191;
+	mso-border-alt:solid #BFBFBF .5pt;
+	mso-border-themecolor:background1;
+	mso-border-themeshade:191;
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-border-insideh:.5pt solid #BFBFBF;
+	mso-border-insideh-themecolor:background1;
+	mso-border-insideh-themeshade:191;
+	mso-border-insidev:.5pt solid #BFBFBF;
+	mso-border-insidev-themecolor:background1;
+	mso-border-insidev-themeshade:191;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+table.MsoTable15Plain1FirstRow
+	{mso-style-name:"Таблица простая 1";
+	mso-table-condition:first-row;
+	mso-style-priority:41;
+	mso-style-unhide:no;
+	mso-ansi-font-weight:bold;
+	mso-bidi-font-weight:bold;}
+table.MsoTable15Plain1LastRow
+	{mso-style-name:"Таблица простая 1";
+	mso-table-condition:last-row;
+	mso-style-priority:41;
+	mso-style-unhide:no;
+	mso-tstyle-border-top:1.5pt double #BFBFBF;
+	mso-tstyle-border-top-themecolor:background1;
+	mso-tstyle-border-top-themeshade:191;
+	mso-ansi-font-weight:bold;
+	mso-bidi-font-weight:bold;}
+table.MsoTable15Plain1FirstCol
+	{mso-style-name:"Таблица простая 1";
+	mso-table-condition:first-column;
+	mso-style-priority:41;
+	mso-style-unhide:no;
+	mso-ansi-font-weight:bold;
+	mso-bidi-font-weight:bold;}
+table.MsoTable15Plain1LastCol
+	{mso-style-name:"Таблица простая 1";
+	mso-table-condition:last-column;
+	mso-style-priority:41;
+	mso-style-unhide:no;
+	mso-ansi-font-weight:bold;
+	mso-bidi-font-weight:bold;}
+table.MsoTable15Plain1OddColumn
+	{mso-style-name:"Таблица простая 1";
+	mso-table-condition:odd-column;
+	mso-style-priority:41;
+	mso-style-unhide:no;
+	mso-tstyle-shading:#F2F2F2;
+	mso-tstyle-shading-themecolor:background1;
+	mso-tstyle-shading-themeshade:242;}
+table.MsoTable15Plain1OddRow
+	{mso-style-name:"Таблица простая 1";
+	mso-table-condition:odd-row;
+	mso-style-priority:41;
+	mso-style-unhide:no;
+	mso-tstyle-shading:#F2F2F2;
+	mso-tstyle-shading-themecolor:background1;
+	mso-tstyle-shading-themeshade:242;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+3) В
+
+<body lang=RU style='tab-interval:35.4pt'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal>На странице стили подключаются:<o:p></o:p></p>
+
+<p class=a>1) &lt;p <span class=SpellE>style</span>=<span class=GramE>&quot;...&quot;&gt;&lt;</span>/p&gt;<o:p></o:p></p>
+
+<p class=a><span lang=EN-US style='mso-ansi-language:EN-US'>2) &lt;head&gt;<o:p></o:p></span></p>
+
+<p class=a><span lang=EN-US style='mso-ansi-language:EN-US'><span
+style='mso-tab-count:1'>         </span>&lt;style&gt;<o:p></o:p></span></p>
+
+<p class=a><span lang=EN-US style='mso-ansi-language:EN-US'><span
+style='mso-tab-count:1'>         </span>...<o:p></o:p></span></p>
+
+<p class=a><span lang=EN-US style='mso-ansi-language:EN-US'><span
+style='mso-tab-count:1'>         </span>&lt;/style&gt;<o:p></o:p></span></p>
+
+<p class=a><span lang=EN-US style='mso-ansi-language:EN-US'><span
+style='mso-spacerun:yes'>   </span>&lt;/head&gt;<o:p></o:p></span></p>
+
+<p class=a><span lang=EN-US style='mso-ansi-language:EN-US'>3) </span>В<span
+lang=EN-US style='mso-ansi-language:EN-US'> &lt;head&gt;-</span>теге<span
+lang=EN-US style='mso-ansi-language:EN-US'> &lt;link <span class=SpellE>href</span>=&quot;<span
+class=SpellE>url</span>&quot; <span class=SpellE>rel</span> =
+&quot;stylesheet&quot;&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal>Описание<span style='mso-ansi-language:EN-US'> </span>стиля<span
+style='mso-ansi-language:EN-US'> </span>внутри<span style='mso-ansi-language:
+EN-US'> </span>тега<span style='mso-ansi-language:EN-US'> </span>элемента<span
+lang=EN-US style='mso-ansi-language:EN-US'>: <o:p></o:p></span></p>
+
+<p class=a><span lang=EN-US style='mso-ansi-language:EN-US'>&lt;p style=&quot;<span
+class=SpellE>background-<span class=GramE>color:red</span></span>;
+font-size:10px;&quot;&gt;Some text&lt;/p&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal>Во внешних файлах или теге &lt;<span class=SpellE>style</span>&gt;:<o:p></o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>для всех модулей определенного типа:<o:p></o:p></p>
+
+<p class=a>p {свойство: значение;<span style='mso-tab-count:1'> </span>свойство:
+значение;<span style='mso-tab-count:1'>      </span>свойство: значение;<span
+style='mso-tab-count:1'>      </span>...}<o:p></o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>для поименованных модулей (class=&quot;specialselectorname&quot;)<o:p></o:p></p>
+
+<p class=a><span class=GramE>.specialselectorname</span> {свойство: значение;<span
+style='mso-tab-count:1'> </span>свойство: значение;<span style='mso-tab-count:
+1'>      </span>свойство: значение;<span style='mso-tab-count:1'>         </span>...}<o:p></o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal># в имени селектора вместо точки (#<span class=SpellE>selectorName</span>)-
+это будет стиль УНИКАЛЬНОГО элемента. Это позволит <span class=SpellE>JavaScript</span>
+находить данный элемент.<o:p></o:p></p>
+
+<p class=a><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span class=a0>h1 + <span class=GramE>p<span
+style='mso-spacerun:yes'>  </span>{</span> ... }</span> - совмещённый селектор
+для параграфа, вложенного в h1 и непосредственно идут за h1</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span class=a0>h2 ~ <span class=GramE>p<span
+style='mso-spacerun:yes'>  </span>{</span> ... }</span> - параграфы,
+находящиеся рядом с h2 на одном уровне вложенности</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span class=SpellE><span class=GramE><span class=a0>div</span></span></span><span
+class=GramE><span class=a0> &gt;</span></span><span class=a0> h1<span
+style='mso-spacerun:yes'>  </span>{ ... }</span><span
+style='mso-spacerun:yes'>  </span>- все h1, <span class=SpellE>яляющиеся</span>
+ПРЯМЫМИ потомками <span class=SpellE>div</span>, без посредников</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span class=GramE><span class=a0>.class1.class</span></span><span
+class=a0>3<span style='mso-spacerun:yes'>   </span>{ ... }</span><span
+style='mso-spacerun:yes'>  </span>- создается дочерний класс 3, наследующий всё
+от класса 1, но в нем можно что-то добавить и/или переназначить</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=a>a[<span class=SpellE>href</span>^=&quot;http://<span class=GramE>&quot;]{</span>
+... }<span style='mso-tab-count:1'> </span><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif;color:windowtext'><span style='mso-tab-count:
+1'>            </span>- селектор для ссылки ТОЛЬКО с указанными атрибутами<o:p></o:p></span></p>
+
+<p class=a><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:windowtext'><o:p>&nbsp;</o:p></span></p>
+
+<p class=a><b style='mso-bidi-font-weight:normal'><u><span style='font-size:
+12.0pt;font-family:"Times New Roman",serif;color:windowtext'>Псевдоклассы:<o:p></o:p></span></u></b></p>
+
+<p class=a><span class=GramE>p:nth</span>-child(odd) { … }<span lang=EN-US
+style='font-size:12.0pt;font-family:"Times New Roman",serif;color:windowtext;
+mso-ansi-language:EN-US'><span style='mso-tab-count:2'>                 </span>-
+</span><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:windowtext'>для нечётных параграфов<span style='mso-tab-count:3'>                         </span><o:p></o:p></span></p>
+
+<p class=a>p:nth-child(even) <span class=GramE>{ …</span> }<span
+style='mso-tab-count:1'>   </span><span style='font-size:12.0pt;font-family:
+"Times New Roman",serif;color:windowtext'><span style='mso-tab-count:1'>            </span>-
+для чётных параграфов<o:p></o:p></span></p>
+
+<p class=a><span class=GramE>p:nth</span>-child(6) { … }<span style='mso-tab-count:
+2'>                 </span><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:windowtext'>- для 6 параграфа в контейнере (перед ним могут идти не
+только </span><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:windowtext;mso-ansi-language:EN-US'>p</span><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif;color:windowtext'>, но и другие теги)<o:p></o:p></span></p>
+
+<p class=a><span class=GramE>p:nth</span>-child(<span lang=EN-US
+style='mso-ansi-language:EN-US'>3n+1</span>) { … }<span lang=EN-US
+style='mso-ansi-language:EN-US'> <span style='mso-tab-count:2'>          </span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif;color:windowtext'>-
+<span class=GramE>для параграфов</span> отвечающих формуле<o:p></o:p></span></p>
+
+<p class=a><span class=GramE>p:nth</span>-<span lang=EN-US style='mso-ansi-language:
+EN-US'>last</span>-<span class=SpellE>child</span>(6) { … }<span
+style='mso-tab-count:2'>           </span><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif;color:windowtext'>- для 6 параграфа с конца<o:p></o:p></span></p>
+
+<p class=a><span class=GramE>p:<span lang=EN-US style='mso-ansi-language:EN-US'>only</span></span>-<span
+class=SpellE>child</span> { … }<span style='mso-tab-count:2'>           </span><span
+style='mso-tab-count:1'>         </span><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif;color:windowtext'>- для элементов,
+являющихся единственным элементом.<o:p></o:p></span></p>
+
+<p class=a><span class=GramE>p:<span lang=EN-US style='mso-ansi-language:EN-US'>only</span></span>-<span
+lang=EN-US style='mso-ansi-language:EN-US'>of</span>-<span lang=EN-US
+style='mso-ansi-language:EN-US'>type</span> { … }<span style='mso-tab-count:
+2'>                 </span><span style='mso-tab-count:1'>         </span><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif;color:windowtext'>-
+для элементов, являющихся единственным элементом данного вида (если есть другие
+теги, он будет по-прежнему единственным типа </span><span lang=EN-US
+style='font-size:12.0pt;font-family:"Times New Roman",serif;color:windowtext;
+mso-ansi-language:EN-US'>p</span><span style='font-size:12.0pt;font-family:
+"Times New Roman",serif;color:windowtext'>).<o:p></o:p></span></p>
+
+<p class=a><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:windowtext'><o:p>&nbsp;</o:p></span></p>
+
+<p class=a><span lang=EN-US style='mso-ansi-language:EN-US'>#id1 <span
+class=GramE>p:nth</span>-of-type(2)<span style='mso-spacerun:yes'>  </span>{…}<span
+style='mso-tab-count:1'>      </span></span><span lang=EN-US style='font-size:
+12.0pt;font-family:"Times New Roman",serif;color:windowtext;mso-ansi-language:
+EN-US'><span style='mso-tab-count:1'>            </span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif;color:windowtext'>-
+для 2 параграфа именно в этом типе #</span><span lang=EN-US style='font-size:
+12.0pt;font-family:"Times New Roman",serif;color:windowtext;mso-ansi-language:
+EN-US'>id</span><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:windowtext'>1<o:p></o:p></span></p>
+
+<p class=a><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:windowtext'><o:p>&nbsp;</o:p></span></p>
+
+<p class=a><span class=SpellE><b style='mso-bidi-font-weight:normal'><u><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif;color:windowtext'>Псевдоэлементы</span></u></b></span><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif;color:windowtext'>:<o:p></o:p></span></u></b></p>
+
+<p class=a><span class=GramE>p::</span>after { <span class=SpellE>content</span>:
+‘Иван’; }<span style='mso-tab-count:1'>     </span><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif;color:windowtext'><span style='mso-tab-count:
+1'>            </span>- добавляет сгенерированный контент в конец элемента<o:p></o:p></span></p>
+
+<p class=a><span class=GramE>p::</span>before { <span class=SpellE>content</span>:
+‘Иван’; }<span style='mso-tab-count:1'>  </span><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif;color:windowtext'><span style='mso-tab-count:
+1'>            </span>- добавляет сгенерированный контент в начало элемента<o:p></o:p></span></p>
+
+<p class=a><span class=GramE>p::</span><span lang=EN-US style='mso-ansi-language:
+EN-US'>first</span>-<span lang=EN-US style='mso-ansi-language:EN-US'>letter</span>
+{ <span lang=EN-US style='mso-ansi-language:EN-US'>font</span>-<span
+lang=EN-US style='mso-ansi-language:EN-US'>size</span>:18<span class=SpellE><span
+lang=EN-US style='mso-ansi-language:EN-US'>pt</span></span>; }<span
+style='mso-tab-count:1'>        </span><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif;color:windowtext'>- указывает
+форматирование первого символа в элементе, например, заглавной буквы.<o:p></o:p></span></p>
+
+<p class=a><span class=GramE>.<span class=SpellE>select</span>::</span>selection
+{ … } <span style='mso-tab-count:1'>  </span><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif;color:windowtext'><span style='mso-tab-count:
+1'>            </span>- задаёт формат выделенного мышкой фрагмента в элементе
+класса </span><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:windowtext;mso-ansi-language:EN-US'>select</span><span style='font-size:
+12.0pt;font-family:"Times New Roman",serif;color:windowtext'><o:p></o:p></span></p>
+
+<p class=a><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:windowtext'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal>Преимущество всегда имеет <span class=SpellE>inline</span>
+стиль, затем описанный ниже по коду, ближе к блоку:<o:p></o:p></p>
+
+<p class=MsoNormal>глобальный, или из отдельного файла <span class=SpellE>css</span>,
+смотря кто в <span class=SpellE>header</span> ниже написан.<o:p></o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Примеры записи атрибутов
+стилей:<o:p></o:p></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'><span
+style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
+
+<table class=MsoTable15Plain1 border=1 cellspacing=0 cellpadding=0 width=671
+ style='width:503.25pt;margin-left:-28.6pt;border-collapse:collapse;border:
+ none;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:background1;
+ mso-border-themeshade:191;mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:-1;mso-yfti-firstrow:yes;mso-yfti-lastfirstrow:yes'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;mso-border-alt:
+  solid #BFBFBF .5pt;mso-border-themecolor:background1;mso-border-themeshade:
+  191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:5'><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-left:none;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:1'><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US;mso-bidi-font-weight:bold'>font: italic bold
+  14px Arial;<o:p></o:p></span></p>
+  <p class=a style='mso-yfti-cnfc:1'><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-left:none;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:1'><span style='font-size:11.0pt;
+  mso-bidi-font-weight:bold'>шрифт наклонный полужирный, 14 пикселей </span><span
+  lang=EN-US style='font-size:11.0pt;mso-ansi-language:EN-US;mso-bidi-font-weight:
+  bold'>Arial</span><span style='font-size:11.0pt;mso-bidi-font-weight:bold'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:0'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:68'><span class=a0><b><o:p>&nbsp;</o:p></b></span></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:64'><span class=a0><span lang=EN-US
+  style='mso-ansi-language:EN-US'>background-image: <span class=SpellE>url</span>(./images/img1.png),
+  <span class=SpellE>url</span>(./images/img2.png);</span></span><span
+  lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'>картинка</span><span
+  lang=EN-US style='font-size:11.0pt;mso-ansi-language:EN-US'> 1 </span><span
+  class=SpellE><span style='font-size:11.0pt'>наложится</span></span><span
+  style='font-size:11.0pt;mso-ansi-language:EN-US'> </span><span
+  style='font-size:11.0pt'>на</span><span style='font-size:11.0pt;mso-ansi-language:
+  EN-US'> </span><span style='font-size:11.0pt'>картинку</span><span
+  lang=EN-US style='font-size:11.0pt;mso-ansi-language:EN-US'> 2<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:4'><span class=a0><b><span lang=EN-US
+  style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></b></span></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a><span class=a0><span lang=EN-US style='mso-ansi-language:EN-US'>background-repeat:
+  no-repeat;<o:p></o:p></span></span></p>
+  <p class=a><span lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:
+  EN-US'>repeat-x, repeat-y,<o:p></o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt'>не повторяться фоновой
+  картинке, <o:p></o:p></span></p>
+  <p class=MsoNormal><span lang=EN-US style='font-size:11.0pt;mso-ansi-language:
+  EN-US'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:64'><span class=SpellE><span
+  style='mso-bidi-font-size:11.0pt'>space</span></span><span lang=EN-US
+  style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'>равномерно
+  размещает картинки с пробелами между ними<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a><span class=SpellE><span style='mso-bidi-font-size:11.0pt'>round</span></span><span
+  style='mso-bidi-font-size:11.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt'>размещает целое число
+  картинок (без разрезов, но с растягиванием)<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:64'><span class=SpellE><span
+  style='mso-bidi-font-size:11.0pt'>background-size</span></span><span
+  style='mso-bidi-font-size:11.0pt'>: <span class=SpellE>contain</span><span
+  style='mso-tab-count:1'> </span><o:p></o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'>масштабирует
+  картинку сохраняя пропорции так, чтобы она полностью поместилась в элемент, у
+  элемента может остаться пустое пространство<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a><span class=SpellE><span style='mso-bidi-font-size:11.0pt'>cover</span></span><span
+  style='mso-bidi-font-size:11.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt'>установит картинку так,
+  чтобы она полностью заняла элемент, но <span class=SpellE>отчатси</span> не
+  поместится<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US'>background-attachment: scroll</span><span
+  style='mso-bidi-font-size:11.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span class=SpellE><span
+  style='font-size:11.0pt'>скроллится</span></span><span style='font-size:11.0pt'>
+  ли фон?<span style='mso-spacerun:yes'>  </span><span class=SpellE>scroll</span>
+  - <span class=SpellE>скроллится</span>, <span class=SpellE>fixed</span> -
+  фиксированный, <span class=SpellE>local</span> - в зависимости от поведения
+  элемента<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a><span lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:
+  EN-US'>background-origin: padding-box<o:p></o:p></span></p>
+  <p class=a><span lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:
+  EN-US'>border-box<o:p></o:p></span></p>
+  <p class=a><span class=SpellE><span style='mso-bidi-font-size:11.0pt'>content-box</span></span><span
+  style='mso-bidi-font-size:11.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt'>ставится к краю элемента с
+  учётом толщины границы<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt'>относительно границы<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt'>относительно контента<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:68'><b><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US'>border-image: <span class=SpellE>url</span>(./images/img1.png)
+  40 round <span class=SpellE>round</span>;<o:p></o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'>углы
+  картинки ставим в качестве границ элемента, вырезая их как квадраты со
+  стороной 40 <span class=SpellE>pxl</span><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a><span class=SpellE><span style='mso-bidi-font-size:11.0pt'>transparent</span></span><span
+  style='mso-bidi-font-size:11.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt'>атрибут для прозрачной
+  рамки<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:10'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:68'><b><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US'>border-radius: 70px 50px 70px 40px/20px;<o:p></o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span class=SpellE><span
+  style='font-size:11.0pt'>скругление</span></span><span style='font-size:11.0pt'>
+  4 углов элемента рамкой<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span lang=EN-US
+  style='font-size:11.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:11'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a><span class=SpellE><span style='mso-bidi-font-size:11.0pt'>outline</span></span><span
+  style='mso-bidi-font-size:11.0pt'>: 2px <span class=SpellE>solid</span> <span
+  class=SpellE>blue</span>;</span><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt'>внешняя граница элемента,
+  не влияет на размер элемента, ставится для всех сторон<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:12'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US'>border-right: 3px dotted <span class=SpellE>darkorange</span>;<span
+  style='mso-tab-count:1'> </span><o:p></o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'>рамка</span><span
+  style='font-size:11.0pt;mso-ansi-language:EN-US'> </span><span
+  style='font-size:11.0pt'>правая</span><span lang=EN-US style='font-size:11.0pt;
+  mso-ansi-language:EN-US'>, 3 </span><span style='font-size:11.0pt'>пикселя</span><span
+  lang=EN-US style='font-size:11.0pt;mso-ansi-language:EN-US'>, </span><span
+  style='font-size:11.0pt'>пунктирная</span><span lang=EN-US style='font-size:
+  11.0pt;mso-ansi-language:EN-US'>, </span><span style='font-size:11.0pt'>оранжевая</span><span
+  lang=EN-US style='font-size:11.0pt;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span lang=EN-US
+  style='font-size:11.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:13'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:4'><b><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a><span lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:
+  EN-US'>li { list-style-image: <span class=SpellE>url</span>(&lt;</span><span
+  style='mso-bidi-font-size:11.0pt'>адрес</span><span style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US'> </span><span style='mso-bidi-font-size:11.0pt'>картинки</span><span
+  lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US'>&gt;)}<o:p></o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt'>устанавливает картинку на
+  маркер в списке<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:14'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US'>list-style-position: outside<o:p></o:p></span></p>
+  <p class=a style='mso-yfti-cnfc:64'><span style='mso-bidi-font-size:11.0pt'>или</span><span
+  style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US'> <span lang=EN-US>inside<o:p></o:p></span></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'>определяет,
+  будет ли маркер отображаться внутри блока текста или блок текста будет
+  отодвигаться<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:15'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:4'><b><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a><span lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:
+  EN-US'>@font-face { font-family:<span style='mso-spacerun:yes'>  </span>…;
+  font-style: …; src: <span class=SpellE>url</span>(…), <span class=SpellE>url</span>(…);<span
+  style='mso-spacerun:yes'>  </span>}<o:p></o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:11.0pt'>Задаём ссылки на скачивание наших шрифтов</span></b><span
+  style='font-size:11.0pt'> с нашего сайта ИЛИ из другого места по </span><span
+  class=SpellE><span lang=EN-US style='font-size:11.0pt;mso-ansi-language:EN-US'>api</span></span><span
+  lang=EN-US style='font-size:11.0pt'> </span><span style='font-size:11.0pt'>(</span><span
+  lang=EN-US style='font-size:11.0pt;mso-ansi-language:EN-US'>fonts</span><span
+  lang=EN-US style='font-size:11.0pt'> </span><span lang=EN-US
+  style='font-size:11.0pt;mso-ansi-language:EN-US'>google</span><span
+  style='font-size:11.0pt'>, например), чтобы страница хорошо отображалась<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:16'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:64'><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:17'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:18'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:64'><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:19'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:20'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:64'><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:21'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:22;mso-yfti-lastrow:yes'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a style='mso-yfti-cnfc:64'><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span style='mso-tab-count:3'>                                    </span><span
+style='mso-spacerun:yes'> </span><o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-tab-count:3'>                                    </span><span
+style='mso-tab-count:3'>                                   </span><o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-tab-count:4'>                                               </span><o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-tab-count:4'>                                               </span><o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                        </span><span
+style='mso-tab-count:6'>                                                                       </span><span
+style='mso-tab-count:3'>                                   </span><span
+style='mso-tab-count:4'>                                               </span><span
+style='mso-tab-count:1'>            </span><o:p></o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
