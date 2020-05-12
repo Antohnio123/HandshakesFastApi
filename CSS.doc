@@ -17,17 +17,17 @@ xmlns="http://www.w3.org/TR/REC-html40">
  <o:DocumentProperties>
   <o:Author>Антон Макаров</o:Author>
   <o:LastAuthor>Антон Макаров</o:LastAuthor>
-  <o:Revision>36</o:Revision>
-  <o:TotalTime>173</o:TotalTime>
+  <o:Revision>67</o:Revision>
+  <o:TotalTime>805</o:TotalTime>
   <o:Created>2020-04-24T12:25:00Z</o:Created>
-  <o:LastSaved>2020-04-24T15:36:00Z</o:LastSaved>
-  <o:Pages>3</o:Pages>
-  <o:Words>646</o:Words>
-  <o:Characters>3687</o:Characters>
+  <o:LastSaved>2020-05-08T19:03:00Z</o:LastSaved>
+  <o:Pages>4</o:Pages>
+  <o:Words>1031</o:Words>
+  <o:Characters>5881</o:Characters>
   <o:Company>diakov.net</o:Company>
-  <o:Lines>30</o:Lines>
-  <o:Paragraphs>8</o:Paragraphs>
-  <o:CharactersWithSpaces>4325</o:CharactersWithSpaces>
+  <o:Lines>49</o:Lines>
+  <o:Paragraphs>13</o:Paragraphs>
+  <o:CharactersWithSpaces>6899</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -41,7 +41,6 @@ target="CSS.files/props007.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Print</w:View>
-  <w:Zoom>90</w:Zoom>
   <w:SpellingState>Clean</w:SpellingState>
   <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
@@ -59,6 +58,7 @@ target="CSS.files/props007.xml">
    <w:SplitPgBreakAndParaMark/>
    <w:UseFELayout/>
   </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
   <m:mathPr>
    <m:mathFont m:val="Cambria Math"/>
    <m:brkBin m:val="before"/>
@@ -706,6 +706,9 @@ border-right: 3px dotted darkorange;
 
 
  /* Font Definitions */
+ 
+
+ /* Font Definitions */
  @font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;
@@ -713,6 +716,13 @@ border-right: 3px dotted darkorange;
 	mso-generic-font-family:roman;
 	mso-font-pitch:variable;
 	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536859905 1073786111 1 0 511 0;}
 @font-face
 	{font-family:Verdana;
 	panose-1:2 11 6 4 3 5 4 4 2 4;
@@ -746,6 +756,8 @@ p
 	mso-fareast-theme-font:minor-fareast;}
 p.msonormal0, li.msonormal0, div.msonormal0
 	{mso-style-name:msonormal;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
 	mso-style-unhide:no;
 	mso-margin-top-alt:auto;
 	margin-right:0cm;
@@ -756,8 +768,21 @@ p.msonormal0, li.msonormal0, div.msonormal0
 	font-family:"Times New Roman",serif;
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
-p.a, li.a, div.a
+span.a
+	{mso-style-name:"Код Знак";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Код;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Verdana",sans-serif;
+	mso-ascii-font-family:Verdana;
+	mso-hansi-font-family:Verdana;
+	mso-bidi-font-family:"Times New Roman";
+	color:#7030A0;}
+p.a0, li.a0, div.a0
 	{mso-style-name:Код;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-link:"Код Знак";
@@ -771,17 +796,6 @@ p.a, li.a, div.a
 	mso-fareast-theme-font:minor-fareast;
 	mso-bidi-font-family:"Times New Roman";
 	color:#7030A0;}
-span.a0
-	{mso-style-name:"Код Знак";
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:Код;
-	mso-bidi-font-size:12.0pt;
-	font-family:"Verdana",sans-serif;
-	mso-ascii-font-family:Verdana;
-	mso-hansi-font-family:Verdana;
-	mso-bidi-font-family:"Times New Roman";
-	color:#7030A0;}
 span.SpellE
 	{mso-style-name:"";
 	mso-spl-e:yes;}
@@ -791,6 +805,9 @@ span.GramE
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
 	mso-ascii-font-family:Calibri;
 	mso-ascii-theme-font:minor-latin;
 	mso-fareast-font-family:"Times New Roman";
@@ -799,10 +816,6 @@ span.GramE
 	mso-hansi-theme-font:minor-latin;
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;}
-.MsoPapDefault
-	{mso-style-type:export-only;
-	margin-bottom:8.0pt;
-	line-height:107%;}
 @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:2.0cm 42.5pt 2.0cm 3.0cm;
@@ -824,13 +837,10 @@ div.WordSection1
 	mso-style-priority:99;
 	mso-style-parent:"";
 	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
-	mso-para-margin-top:0cm;
-	mso-para-margin-right:0cm;
-	mso-para-margin-bottom:8.0pt;
-	mso-para-margin-left:0cm;
-	line-height:107%;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
 	mso-pagination:widow-orphan;
-	font-size:11.0pt;
+	font-size:10.0pt;
 	font-family:"Calibri",sans-serif;
 	mso-ascii-font-family:Calibri;
 	mso-ascii-theme-font:minor-latin;
@@ -952,155 +962,161 @@ table.MsoTable15Plain1OddRow
 
 <div class=WordSection1>
 
-<p class=MsoNormal>На странице стили подключаются:<o:p></o:p></p>
+<p class=MsoNormal>Используй <span lang=EN-US style='mso-ansi-language:EN-US'>BOOTSTRAP
+4!<o:p></o:p></span></p>
 
-<p class=a>1) &lt;p <span class=SpellE>style</span>=<span class=GramE>&quot;...&quot;&gt;&lt;</span>/p&gt;<o:p></o:p></p>
+<p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
 
-<p class=a><span lang=EN-US style='mso-ansi-language:EN-US'>2) &lt;head&gt;<o:p></o:p></span></p>
+<p class=MsoNormal>На странице стили подключаются:</p>
 
-<p class=a><span lang=EN-US style='mso-ansi-language:EN-US'><span
-style='mso-tab-count:1'>         </span>&lt;style&gt;<o:p></o:p></span></p>
+<p class=a0>1) &lt;p <span class=SpellE>style</span>=<span class=GramE>&quot;...&quot;&gt;&lt;</span>/p&gt;</p>
 
-<p class=a><span lang=EN-US style='mso-ansi-language:EN-US'><span
+<p class=a0>2) &lt;<span lang=EN-US style='mso-ansi-language:EN-US'>head</span>&gt;</p>
+
+<p class=a0><span style='mso-tab-count:1'>         </span><span lang=EN-US
+style='mso-ansi-language:EN-US'>&lt;style&gt;<o:p></o:p></span></p>
+
+<p class=a0><span lang=EN-US style='mso-ansi-language:EN-US'><span
 style='mso-tab-count:1'>         </span>...<o:p></o:p></span></p>
 
-<p class=a><span lang=EN-US style='mso-ansi-language:EN-US'><span
+<p class=a0><span lang=EN-US style='mso-ansi-language:EN-US'><span
 style='mso-tab-count:1'>         </span>&lt;/style&gt;<o:p></o:p></span></p>
 
-<p class=a><span lang=EN-US style='mso-ansi-language:EN-US'><span
+<p class=a0><span lang=EN-US style='mso-ansi-language:EN-US'><span
 style='mso-spacerun:yes'>   </span>&lt;/head&gt;<o:p></o:p></span></p>
 
-<p class=a><span lang=EN-US style='mso-ansi-language:EN-US'>3) </span>В<span
+<p class=a0><span lang=EN-US style='mso-ansi-language:EN-US'>3) </span>В<span
 lang=EN-US style='mso-ansi-language:EN-US'> &lt;head&gt;-</span>теге<span
-lang=EN-US style='mso-ansi-language:EN-US'> &lt;link <span class=SpellE>href</span>=&quot;<span
-class=SpellE>url</span>&quot; <span class=SpellE>rel</span> =
+lang=EN-US style='mso-ansi-language:EN-US'> &lt;link </span><span class=SpellE><span
+lang=EN-US style='color:red;mso-ansi-language:EN-US'>href</span></span><span
+lang=EN-US style='mso-ansi-language:EN-US'>=&quot;<span class=SpellE>url</span>&quot;
+</span><span class=SpellE><span lang=EN-US style='color:red;mso-ansi-language:
+EN-US'>rel</span></span><span lang=EN-US style='color:red;mso-ansi-language:
+EN-US'> </span><span lang=EN-US style='mso-ansi-language:EN-US'>=
 &quot;stylesheet&quot;&gt;<o:p></o:p></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal>Описание<span style='mso-ansi-language:EN-US'> </span>стиля<span
-style='mso-ansi-language:EN-US'> </span>внутри<span style='mso-ansi-language:
-EN-US'> </span>тега<span style='mso-ansi-language:EN-US'> </span>элемента<span
-lang=EN-US style='mso-ansi-language:EN-US'>: <o:p></o:p></span></p>
+<p class=MsoNormal>Описание стиля внутри тега элемента: </p>
 
-<p class=a><span lang=EN-US style='mso-ansi-language:EN-US'>&lt;p style=&quot;<span
+<p class=a0><span lang=EN-US style='mso-ansi-language:EN-US'>&lt;p style=&quot;<span
 class=SpellE>background-<span class=GramE>color:red</span></span>;
 font-size:10px;&quot;&gt;Some text&lt;/p&gt;<o:p></o:p></span></p>
 
-<p class=MsoNormal>Во внешних файлах или теге &lt;<span class=SpellE>style</span>&gt;:<o:p></o:p></p>
+<p class=MsoNormal>Во внешних файлах или теге &lt;<span class=SpellE>style</span>&gt;:</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<p class=MsoNormal>для всех модулей определенного типа:<o:p></o:p></p>
+<p class=MsoNormal>для всех модулей определенного типа:</p>
 
-<p class=a>p {свойство: значение;<span style='mso-tab-count:1'> </span>свойство:
-значение;<span style='mso-tab-count:1'>      </span>свойство: значение;<span
-style='mso-tab-count:1'>      </span>...}<o:p></o:p></p>
+<p class=a0>p {<span style='color:red'>свойство</span>: значение;<span
+style='mso-tab-count:1'> </span><span style='color:red'>свойство</span>:
+значение;<span style='mso-tab-count:1'>      </span><span style='color:red'>свойство</span>:
+значение;<span style='mso-tab-count:1'>      </span>...}</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<p class=MsoNormal>для поименованных модулей (class=&quot;specialselectorname&quot;)<o:p></o:p></p>
+<p class=MsoNormal>для поименованных модулей
+(class=&quot;specialselectorname&quot;)</p>
 
-<p class=a><span class=GramE>.specialselectorname</span> {свойство: значение;<span
-style='mso-tab-count:1'> </span>свойство: значение;<span style='mso-tab-count:
-1'>      </span>свойство: значение;<span style='mso-tab-count:1'>         </span>...}<o:p></o:p></p>
+<p class=a0><span class=GramE>.specialselectorname</span> {<span
+style='color:red'>свойство</span>: значение;<span style='mso-tab-count:1'> </span><span
+style='color:red'>свойство</span>: значение;<span style='mso-tab-count:1'>      </span><span
+style='color:red'>свойство</span>: значение;<span style='mso-tab-count:1'>         </span>...}</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
 <p class=MsoNormal># в имени селектора вместо точки (#<span class=SpellE>selectorName</span>)-
 это будет стиль УНИКАЛЬНОГО элемента. Это позволит <span class=SpellE>JavaScript</span>
-находить данный элемент.<o:p></o:p></p>
+находить данный элемент.</p>
 
-<p class=a><o:p>&nbsp;</o:p></p>
+<p class=a0><o:p>&nbsp;</o:p></p>
 
-<p class=MsoNormal><span class=a0>h1 + <span class=GramE>p<span
+<p class=MsoNormal><span class=a>h1 + <span class=GramE>p<span
 style='mso-spacerun:yes'>  </span>{</span> ... }</span> - совмещённый селектор
 для параграфа, вложенного в h1 и непосредственно идут за h1</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<p class=MsoNormal><span class=a0>h2 ~ <span class=GramE>p<span
+<p class=MsoNormal><span class=a>h2 ~ <span class=GramE>p<span
 style='mso-spacerun:yes'>  </span>{</span> ... }</span> - параграфы,
 находящиеся рядом с h2 на одном уровне вложенности</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<p class=MsoNormal><span class=SpellE><span class=GramE><span class=a0>div</span></span></span><span
-class=GramE><span class=a0> &gt;</span></span><span class=a0> h1<span
+<p class=MsoNormal><span class=SpellE><span class=GramE><span class=a>div</span></span></span><span
+class=GramE><span class=a> &gt;</span></span><span class=a> h1<span
 style='mso-spacerun:yes'>  </span>{ ... }</span><span
 style='mso-spacerun:yes'>  </span>- все h1, <span class=SpellE>яляющиеся</span>
 ПРЯМЫМИ потомками <span class=SpellE>div</span>, без посредников</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<p class=MsoNormal><span class=GramE><span class=a0>.class1.class</span></span><span
-class=a0>3<span style='mso-spacerun:yes'>   </span>{ ... }</span><span
+<p class=MsoNormal><span class=GramE><span class=a>.class1.class</span></span><span
+class=a>3<span style='mso-spacerun:yes'>   </span>{ ... }</span><span
 style='mso-spacerun:yes'>  </span>- создается дочерний класс 3, наследующий всё
 от класса 1, но в нем можно что-то добавить и/или переназначить</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<p class=a>a[<span class=SpellE>href</span>^=&quot;http://<span class=GramE>&quot;]{</span>
+<p class=a0>a[<span class=SpellE>href</span>^=&quot;http://<span class=GramE>&quot;]{</span>
 ... }<span style='mso-tab-count:1'> </span><span style='font-size:12.0pt;
 font-family:"Times New Roman",serif;color:windowtext'><span style='mso-tab-count:
 1'>            </span>- селектор для ссылки ТОЛЬКО с указанными атрибутами<o:p></o:p></span></p>
 
-<p class=a><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+<p class=a0><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
 color:windowtext'><o:p>&nbsp;</o:p></span></p>
 
-<p class=a><b style='mso-bidi-font-weight:normal'><u><span style='font-size:
+<p class=a0><b style='mso-bidi-font-weight:normal'><u><span style='font-size:
 12.0pt;font-family:"Times New Roman",serif;color:windowtext'>Псевдоклассы:<o:p></o:p></span></u></b></p>
 
-<p class=a><span class=GramE>p:nth</span>-child(odd) { … }<span lang=EN-US
-style='font-size:12.0pt;font-family:"Times New Roman",serif;color:windowtext;
-mso-ansi-language:EN-US'><span style='mso-tab-count:2'>                 </span>-
-</span><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
-color:windowtext'>для нечётных параграфов<span style='mso-tab-count:3'>                         </span><o:p></o:p></span></p>
+<p class=a0><span class=GramE>p:nth</span>-child(odd) { … }<span
+style='font-size:12.0pt;font-family:"Times New Roman",serif;color:windowtext'><span
+style='mso-tab-count:2'>                 </span>- для нечётных параграфов<span
+style='mso-tab-count:3'>                         </span><o:p></o:p></span></p>
 
-<p class=a>p:nth-child(even) <span class=GramE>{ …</span> }<span
+<p class=a0><span class=GramE>p:nth</span>-child(even) { … }<span
 style='mso-tab-count:1'>   </span><span style='font-size:12.0pt;font-family:
 "Times New Roman",serif;color:windowtext'><span style='mso-tab-count:1'>            </span>-
 для чётных параграфов<o:p></o:p></span></p>
 
-<p class=a><span class=GramE>p:nth</span>-child(6) { … }<span style='mso-tab-count:
-2'>                 </span><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
-color:windowtext'>- для 6 параграфа в контейнере (перед ним могут идти не
-только </span><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif;
-color:windowtext;mso-ansi-language:EN-US'>p</span><span style='font-size:12.0pt;
-font-family:"Times New Roman",serif;color:windowtext'>, но и другие теги)<o:p></o:p></span></p>
+<p class=a0><span class=GramE>p:nth</span>-child(6) { … }<span
+style='mso-tab-count:2'>                 </span><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif;color:windowtext'>- для 6 параграфа в
+контейнере (перед ним могут идти не только </span><span lang=EN-US
+style='font-size:12.0pt;font-family:"Times New Roman",serif;color:windowtext;
+mso-ansi-language:EN-US'>p</span><span style='font-size:12.0pt;font-family:
+"Times New Roman",serif;color:windowtext'>, но и другие теги)<o:p></o:p></span></p>
 
-<p class=a><span class=GramE>p:nth</span>-child(<span lang=EN-US
-style='mso-ansi-language:EN-US'>3n+1</span>) { … }<span lang=EN-US
-style='mso-ansi-language:EN-US'> <span style='mso-tab-count:2'>          </span></span><span
-style='font-size:12.0pt;font-family:"Times New Roman",serif;color:windowtext'>-
-<span class=GramE>для параграфов</span> отвечающих формуле<o:p></o:p></span></p>
+<p class=a0><span class=GramE>p:nth</span>-child(3<span lang=EN-US
+style='mso-ansi-language:EN-US'>n</span>+1) { … } <span style='mso-tab-count:
+2'>          </span><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:windowtext'>- <span class=GramE>для параграфов</span> отвечающих формуле<o:p></o:p></span></p>
 
-<p class=a><span class=GramE>p:nth</span>-<span lang=EN-US style='mso-ansi-language:
+<p class=a0><span class=GramE>p:nth</span>-<span lang=EN-US style='mso-ansi-language:
 EN-US'>last</span>-<span class=SpellE>child</span>(6) { … }<span
 style='mso-tab-count:2'>           </span><span style='font-size:12.0pt;
 font-family:"Times New Roman",serif;color:windowtext'>- для 6 параграфа с конца<o:p></o:p></span></p>
 
-<p class=a><span class=GramE>p:<span lang=EN-US style='mso-ansi-language:EN-US'>only</span></span>-<span
-class=SpellE>child</span> { … }<span style='mso-tab-count:2'>           </span><span
-style='mso-tab-count:1'>         </span><span style='font-size:12.0pt;
-font-family:"Times New Roman",serif;color:windowtext'>- для элементов,
-являющихся единственным элементом.<o:p></o:p></span></p>
+<p class=a0><span class=GramE>p:<span lang=EN-US style='mso-ansi-language:EN-US'>only</span></span>-<span
+class=SpellE>child</span> { … }<span style='mso-tab-count:3'>                    </span><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif;color:windowtext'>-
+для элементов, являющихся единственным элементом.<o:p></o:p></span></p>
 
-<p class=a><span class=GramE>p:<span lang=EN-US style='mso-ansi-language:EN-US'>only</span></span>-<span
+<p class=a0><span class=GramE>p:<span lang=EN-US style='mso-ansi-language:EN-US'>only</span></span>-<span
 lang=EN-US style='mso-ansi-language:EN-US'>of</span>-<span lang=EN-US
 style='mso-ansi-language:EN-US'>type</span> { … }<span style='mso-tab-count:
-2'>                 </span><span style='mso-tab-count:1'>         </span><span
-style='font-size:12.0pt;font-family:"Times New Roman",serif;color:windowtext'>-
-для элементов, являющихся единственным элементом данного вида (если есть другие
-теги, он будет по-прежнему единственным типа </span><span lang=EN-US
-style='font-size:12.0pt;font-family:"Times New Roman",serif;color:windowtext;
-mso-ansi-language:EN-US'>p</span><span style='font-size:12.0pt;font-family:
-"Times New Roman",serif;color:windowtext'>).<o:p></o:p></span></p>
+3'>                          </span><span style='font-size:12.0pt;font-family:
+"Times New Roman",serif;color:windowtext'>- для элементов, являющихся
+единственным элементом данного вида (если есть другие теги, он будет
+по-прежнему единственным типа </span><span lang=EN-US style='font-size:12.0pt;
+font-family:"Times New Roman",serif;color:windowtext;mso-ansi-language:EN-US'>p</span><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif;color:windowtext'>).<o:p></o:p></span></p>
 
-<p class=a><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+<p class=a0><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
 color:windowtext'><o:p>&nbsp;</o:p></span></p>
 
-<p class=a><span lang=EN-US style='mso-ansi-language:EN-US'>#id1 <span
+<p class=a0><span lang=EN-US style='mso-ansi-language:EN-US'>#id1 <span
 class=GramE>p:nth</span>-of-type(2)<span style='mso-spacerun:yes'>  </span>{…}<span
 style='mso-tab-count:1'>      </span></span><span lang=EN-US style='font-size:
 12.0pt;font-family:"Times New Roman",serif;color:windowtext;mso-ansi-language:
@@ -1111,58 +1127,80 @@ style='font-size:12.0pt;font-family:"Times New Roman",serif;color:windowtext'>-
 EN-US'>id</span><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
 color:windowtext'>1<o:p></o:p></span></p>
 
-<p class=a><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+<p class=a0><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:windowtext'>Вызываться будет </span>&lt;<span lang=EN-US
+style='mso-ansi-language:EN-US'>p</span><span lang=EN-US> </span><span
+lang=EN-US style='color:red;mso-ansi-language:EN-US'>id</span><span
+style='color:#2F5597;mso-themecolor:accent5;mso-themeshade:191;mso-style-textfill-fill-color:
+#2F5597;mso-style-textfill-fill-themecolor:accent5;mso-style-textfill-fill-alpha:
+100.0%;mso-style-textfill-fill-colortransforms:lumm=75000'><span
+style='color:windowtext'>=”</span></span><span lang=EN-US style='color:#2F5597;
+mso-themecolor:accent5;mso-themeshade:191;mso-style-textfill-fill-color:#2F5597;
+mso-style-textfill-fill-themecolor:accent5;mso-style-textfill-fill-alpha:100.0%;
+mso-style-textfill-fill-colortransforms:lumm=75000;mso-ansi-language:EN-US'><span
+style='color:windowtext'>id</span></span><span style='color:#2F5597;mso-themecolor:
+accent5;mso-themeshade:191;mso-style-textfill-fill-color:#2F5597;mso-style-textfill-fill-themecolor:
+accent5;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000'><span style='color:windowtext'>1<span class=GramE>”<span
+style='color:black;mso-style-textfill-fill-color:black;mso-style-textfill-fill-alpha:
+100.0%'><span style='color:black;mso-style-textfill-fill-color:black;
+mso-style-textfill-fill-alpha:100.0%'>&gt;<span style='color:black;mso-style-textfill-fill-color:
+black;mso-style-textfill-fill-alpha:100.0%'>&lt;</span></span></span></span></span></span>/<span
+lang=EN-US style='mso-ansi-language:EN-US'>p</span>&gt;<span style='font-size:
+12.0pt;font-family:"Times New Roman",serif;color:windowtext'><o:p></o:p></span></p>
+
+<p class=a0><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
 color:windowtext'><o:p>&nbsp;</o:p></span></p>
 
-<p class=a><span class=SpellE><b style='mso-bidi-font-weight:normal'><u><span
+<p class=a0><span class=SpellE><b style='mso-bidi-font-weight:normal'><u><span
 style='font-size:12.0pt;font-family:"Times New Roman",serif;color:windowtext'>Псевдоэлементы</span></u></b></span><b
 style='mso-bidi-font-weight:normal'><u><span style='font-size:12.0pt;
 font-family:"Times New Roman",serif;color:windowtext'>:<o:p></o:p></span></u></b></p>
 
-<p class=a><span class=GramE>p::</span>after { <span class=SpellE>content</span>:
+<p class=a0><span class=GramE>p::</span>after { <span class=SpellE>content</span>:
 ‘Иван’; }<span style='mso-tab-count:1'>     </span><span style='font-size:12.0pt;
 font-family:"Times New Roman",serif;color:windowtext'><span style='mso-tab-count:
 1'>            </span>- добавляет сгенерированный контент в конец элемента<o:p></o:p></span></p>
 
-<p class=a><span class=GramE>p::</span>before { <span class=SpellE>content</span>:
+<p class=a0><span class=GramE>p::</span>before { <span class=SpellE>content</span>:
 ‘Иван’; }<span style='mso-tab-count:1'>  </span><span style='font-size:12.0pt;
 font-family:"Times New Roman",serif;color:windowtext'><span style='mso-tab-count:
 1'>            </span>- добавляет сгенерированный контент в начало элемента<o:p></o:p></span></p>
 
-<p class=a><span class=GramE>p::</span><span lang=EN-US style='mso-ansi-language:
+<p class=a0><span class=GramE>p::</span><span lang=EN-US style='mso-ansi-language:
 EN-US'>first</span>-<span lang=EN-US style='mso-ansi-language:EN-US'>letter</span>
 { <span lang=EN-US style='mso-ansi-language:EN-US'>font</span>-<span
 lang=EN-US style='mso-ansi-language:EN-US'>size</span>:18<span class=SpellE><span
 lang=EN-US style='mso-ansi-language:EN-US'>pt</span></span>; }<span
 style='mso-tab-count:1'>        </span><span style='font-size:12.0pt;
-font-family:"Times New Roman",serif;color:windowtext'>- указывает
-форматирование первого символа в элементе, например, заглавной буквы.<o:p></o:p></span></p>
+font-family:"Times New Roman",serif;color:windowtext'>- указывает форматирование
+первого символа в элементе, например, заглавной буквы.<o:p></o:p></span></p>
 
-<p class=a><span class=GramE>.<span class=SpellE>select</span>::</span>selection
-{ … } <span style='mso-tab-count:1'>  </span><span style='font-size:12.0pt;
-font-family:"Times New Roman",serif;color:windowtext'><span style='mso-tab-count:
-1'>            </span>- задаёт формат выделенного мышкой фрагмента в элементе
-класса </span><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif;
-color:windowtext;mso-ansi-language:EN-US'>select</span><span style='font-size:
-12.0pt;font-family:"Times New Roman",serif;color:windowtext'><o:p></o:p></span></p>
+<p class=a0><span class=GramE>.<span class=SpellE>select</span>::</span><span
+class=SpellE>selection</span> { … } <span style='mso-tab-count:1'>  </span><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif;color:windowtext'><span
+style='mso-tab-count:1'>            </span>- задаёт формат выделенного мышкой
+фрагмента в элементе класса </span><span lang=EN-US style='font-size:12.0pt;
+font-family:"Times New Roman",serif;color:windowtext;mso-ansi-language:EN-US'>select</span><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif;color:windowtext'><o:p></o:p></span></p>
 
-<p class=a><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+<p class=a0><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
 color:windowtext'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal>Преимущество всегда имеет <span class=SpellE>inline</span>
-стиль, затем описанный ниже по коду, ближе к блоку:<o:p></o:p></p>
+стиль, затем описанный ниже по коду, ближе к блоку:</p>
 
 <p class=MsoNormal>глобальный, или из отдельного файла <span class=SpellE>css</span>,
-смотря кто в <span class=SpellE>header</span> ниже написан.<o:p></o:p></p>
+смотря кто в <span class=SpellE>header</span> ниже написан.</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Примеры записи атрибутов
-стилей:<o:p></o:p></b></p>
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Примеры записи
+атрибутов стилей:<o:p></o:p></b></p>
 
 <p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'><span
 style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
@@ -1176,21 +1214,22 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-themecolor:background1;mso-border-themeshade:191;mso-border-alt:
   solid #BFBFBF .5pt;mso-border-themecolor:background1;mso-border-themeshade:
   191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:5'><span lang=EN-US style='mso-bidi-font-size:
-  11.0pt;mso-ansi-language:EN-US;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+  <p class=a0 style='mso-yfti-cnfc:5'><b><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></b></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border:solid #BFBFBF 1.0pt;
+  <td width=237 valign=top style='width:177.45pt;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-left:none;
   mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:1'><span lang=EN-US style='mso-bidi-font-size:
-  11.0pt;mso-ansi-language:EN-US;mso-bidi-font-weight:bold'>font: italic bold
-  14px Arial;<o:p></o:p></span></p>
-  <p class=a style='mso-yfti-cnfc:1'><span lang=EN-US style='mso-bidi-font-size:
+  <p class=a0 style='mso-yfti-cnfc:1'><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;color:red;mso-ansi-language:EN-US;mso-bidi-font-weight:bold'>font</span><span
+  lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US;
+  mso-bidi-font-weight:bold'>: italic bold 14px Arial;<o:p></o:p></span></p>
+  <p class=a0 style='mso-yfti-cnfc:1'><span lang=EN-US style='mso-bidi-font-size:
   11.0pt;mso-ansi-language:EN-US;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border:solid #BFBFBF 1.0pt;
+  <td width=416 valign=top style='width:11.0cm;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-left:none;
   mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
@@ -1208,9 +1247,10 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:68'><span class=a0><b><o:p>&nbsp;</o:p></b></span></p>
+  <p class=a0 style='mso-yfti-cnfc:68'><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1219,12 +1259,12 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:64'><span class=a0><span lang=EN-US
-  style='mso-ansi-language:EN-US'>background-image: <span class=SpellE>url</span>(./images/img1.png),
-  <span class=SpellE>url</span>(./images/img2.png);</span></span><span
-  lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  <p class=a0 style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;color:red;mso-ansi-language:EN-US'>class=</span><span lang=EN-US
+  style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US'>”container”;</span><span
+  lang=EN-US style='mso-bidi-font-size:11.0pt;color:red;mso-ansi-language:EN-US'><o:p></o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1233,13 +1273,9 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'>картинка</span><span
-  lang=EN-US style='font-size:11.0pt;mso-ansi-language:EN-US'> 1 </span><span
-  class=SpellE><span style='font-size:11.0pt'>наложится</span></span><span
-  style='font-size:11.0pt;mso-ansi-language:EN-US'> </span><span
-  style='font-size:11.0pt'>на</span><span style='font-size:11.0pt;mso-ansi-language:
-  EN-US'> </span><span style='font-size:11.0pt'>картинку</span><span
-  lang=EN-US style='font-size:11.0pt;mso-ansi-language:EN-US'> 2<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'>класс
+  контейнер вмещает в себя наборы элементов: кнопок меню, вариантов для выбора,
+  пунктов, страниц, ссылок…<o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:1'>
@@ -1248,10 +1284,10 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:4'><span class=a0><b><span lang=EN-US
-  style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></b></span></p>
+  <p class=a0 style='mso-yfti-cnfc:4'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1259,12 +1295,294 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a><span class=a0><span lang=EN-US style='mso-ansi-language:EN-US'>background-repeat:
+  <p class=a0><span lang=EN-US style='mso-bidi-font-size:11.0pt;color:red;
+  mso-ansi-language:EN-US'>margin: </span><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US;mso-bidi-font-weight:bold'>30px 20px</span><span
+  lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US'>;</span><span
+  lang=EN-US style='mso-bidi-font-size:11.0pt;color:red;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  <p class=a0><span lang=EN-US style='mso-bidi-font-size:11.0pt;color:red;
+  mso-ansi-language:EN-US'>margin-top:<o:p></o:p></span></p>
+  <p class=a0><span lang=EN-US style='mso-bidi-font-size:11.0pt;color:red;
+  mso-ansi-language:EN-US'>margin</span><span style='mso-bidi-font-size:11.0pt;
+  color:red'>-</span><span lang=EN-US style='mso-bidi-font-size:11.0pt;
+  color:red;mso-ansi-language:EN-US'>left:<o:p></o:p></span></p>
+  </td>
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt'>внешний отступ от края
+  элемента до границы родительского элемента, сначала верхний и нижний (30),
+  потом левый-правый (20). Каждый отступ можно задать отдельно.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0 style='mso-yfti-cnfc:68'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0 style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;color:red;mso-ansi-language:EN-US'>padding</span><span
+  style='mso-bidi-font-size:11.0pt;color:red'>: </span><span lang=EN-US
+  style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US;mso-bidi-font-weight:
+  bold'>10px 30px;</span><span lang=EN-US style='mso-bidi-font-size:11.0pt;
+  color:red;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  <p class=a0 style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;color:red;mso-ansi-language:EN-US'>padding</span><span
+  style='mso-bidi-font-size:11.0pt;color:red'>-</span><span lang=EN-US
+  style='mso-bidi-font-size:11.0pt;color:red;mso-ansi-language:EN-US'>bottom</span><span
+  style='mso-bidi-font-size:11.0pt;color:red'>:<o:p></o:p></span></p>
+  </td>
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'>внутренний
+  отступ от края элемента до его содержимого<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0 style='mso-yfti-cnfc:4'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0><span lang=EN-US style='mso-bidi-font-size:11.0pt;color:red;
+  mso-ansi-language:EN-US'>width: </span><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US;mso-bidi-font-weight:bold'>20%;</span><span
+  lang=EN-US style='mso-bidi-font-size:11.0pt;color:red;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  </td>
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt'>Ширина</span><span
+  lang=EN-US style='font-size:11.0pt;mso-ansi-language:EN-US'>, </span><span
+  style='font-size:11.0pt'>занимаемая</span><span style='font-size:11.0pt;
+  mso-ansi-language:EN-US'> </span><span style='font-size:11.0pt'>элементом</span><span
+  lang=EN-US style='font-size:11.0pt;mso-ansi-language:EN-US'>.<span
+  style='mso-spacerun:yes'>  </span></span><span style='font-size:11.0pt'>Если мы
+  делаем внутренние отступы </span><span lang=EN-US style='font-size:11.0pt;
+  color:red;mso-ansi-language:EN-US'>padding</span><span style='font-size:11.0pt'>,
+  то они тоже съедают эту ширину!<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0 style='mso-yfti-cnfc:68'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0 style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;color:red;mso-ansi-language:EN-US'>position: </span><span lang=EN-US
+  style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US'>relative<span
+  style='mso-bidi-font-weight:bold'>;<o:p></o:p></span></span></p>
+  <p class=a0 style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;color:red;mso-ansi-language:EN-US;mso-bidi-font-weight:bold'>top</span><span
+  lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US;
+  mso-bidi-font-weight:bold'>: 50px;<o:p></o:p></span></p>
+  <p class=a0 style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;color:red;mso-ansi-language:EN-US;mso-bidi-font-weight:bold'>left</span><span
+  lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US;
+  mso-bidi-font-weight:bold'>: 40px;</span><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;color:red;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  </td>
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'>Позиционирование
+  элемента: </span><span lang=EN-US style='font-size:11.0pt;color:#7030A0;
+  mso-ansi-language:EN-US'>static</span><span lang=EN-US style='font-size:11.0pt;
+  color:#7030A0'> </span><span style='font-size:11.0pt'>- отсутствует, </span><span
+  lang=EN-US style='font-size:11.0pt;color:#7030A0;mso-ansi-language:EN-US'>relative</span><span
+  lang=EN-US style='font-size:11.0pt;color:#7030A0'> </span><span
+  style='font-size:11.0pt'>- относительно левого верхнего угла родительского
+  элемента с указанием отступов </span><span lang=EN-US style='font-size:11.0pt;
+  color:red;mso-ansi-language:EN-US'>top</span><span lang=EN-US
+  style='font-size:11.0pt;color:red'> </span><span style='font-size:11.0pt'>и </span><span
+  lang=EN-US style='font-size:11.0pt;color:red;mso-ansi-language:EN-US'>left</span><span
+  style='font-size:11.0pt'>, при этому него остаётся зарезервированное место в
+  левом верхнем углу родителя.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span lang=EN-US
+  style='font-size:11.0pt;color:#7030A0;mso-ansi-language:EN-US'>absolute</span><span
+  lang=EN-US style='font-size:11.0pt;color:#7030A0'> </span><span
+  style='font-size:11.0pt'>- поверх других элементов относительно левого верх.
+  угла родительского элемента или окна браузера, другие элементы в первом
+  потоке вывода сдвигаются, занимая освобождённое им место.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span lang=EN-US
+  style='font-size:11.0pt;color:#7030A0;mso-ansi-language:EN-US'>fixed</span><span
+  lang=EN-US style='font-size:11.0pt;color:#7030A0'> </span><span
+  style='font-size:11.0pt'>- фиксирует в координатах, прокручивание страницы НЕ
+  влияет на элемент, он как окно помощника, остаётся на своём месте.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0 style='mso-yfti-cnfc:4'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0><span style='mso-bidi-font-size:11.0pt;color:red'>z-<span
+  class=SpellE>index</span>: </span><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US;mso-bidi-font-weight:bold'>10;</span><span
+  style='mso-bidi-font-size:11.0pt;color:red'><o:p></o:p></span></p>
+  </td>
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt'>Уровень слоя, на котором
+  находится элемент. Где 1 - самый нижний, дальний от зрителя, перекрывающийся
+  другими слой. Больше - ближе.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0 style='mso-yfti-cnfc:68'><span class=a><b><o:p>&nbsp;</o:p></b></span></p>
+  </td>
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0 style='mso-yfti-cnfc:64'><span class=a><span lang=EN-US
+  style='color:red;mso-ansi-language:EN-US'>background</span></span><span
+  class=a><span style='color:red'>-</span></span><span class=a><span
+  lang=EN-US style='color:red;mso-ansi-language:EN-US'>image</span>: </span><span
+  class=SpellE><span class=a><span lang=EN-US style='mso-ansi-language:EN-US'>url</span></span></span><span
+  class=a>(./</span><span class=a><span lang=EN-US style='mso-ansi-language:
+  EN-US'>images</span>/</span><span class=SpellE><span class=a><span
+  lang=EN-US style='mso-ansi-language:EN-US'>img</span></span></span><span
+  class=a>1.</span><span class=SpellE><span class=a><span lang=EN-US
+  style='mso-ansi-language:EN-US'>png</span></span></span><span class=a>), </span><span
+  class=SpellE><span class=a><span lang=EN-US style='mso-ansi-language:EN-US'>url</span></span></span><span
+  class=a>(./</span><span class=a><span lang=EN-US style='mso-ansi-language:
+  EN-US'>images</span>/</span><span class=SpellE><span class=a><span
+  lang=EN-US style='mso-ansi-language:EN-US'>img</span></span></span><span
+  class=a>2.</span><span class=SpellE><span class=a><span lang=EN-US
+  style='mso-ansi-language:EN-US'>png</span></span></span><span class=a>);</span><span
+  style='mso-bidi-font-size:11.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'>картинка
+  1 наложится</span><span style='font-size:11.0pt;mso-ansi-language:EN-US'> </span><span
+  style='font-size:11.0pt'>на</span><span style='font-size:11.0pt;mso-ansi-language:
+  EN-US'> </span><span style='font-size:11.0pt'>картинку</span><span
+  lang=EN-US style='font-size:11.0pt;mso-ansi-language:EN-US'> 2<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0 style='mso-yfti-cnfc:4'><span class=a><b><span lang=EN-US
+  style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></b></span></p>
+  </td>
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0><span class=a><span lang=EN-US style='mso-ansi-language:EN-US'>background-repeat:
   no-repeat;<o:p></o:p></span></span></p>
-  <p class=a><span lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:
+  <p class=a0><span lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:
   EN-US'>repeat-x, repeat-y,<o:p></o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1278,16 +1596,16 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   EN-US'><o:p>&nbsp;</o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:2'>
+ <tr style='mso-yfti-irow:8'>
   <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
   mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=a0 style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1296,11 +1614,11 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:64'><span class=SpellE><span
+  <p class=a0 style='mso-yfti-cnfc:64'><span class=SpellE><span
   style='mso-bidi-font-size:11.0pt'>space</span></span><span lang=EN-US
   style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US'><o:p></o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1314,15 +1632,15 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:3'>
+ <tr style='mso-yfti-irow:9'>
   <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
   mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=a0 style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1330,10 +1648,10 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a><span class=SpellE><span style='mso-bidi-font-size:11.0pt'>round</span></span><span
+  <p class=a0><span class=SpellE><span style='mso-bidi-font-size:11.0pt'>round</span></span><span
   style='mso-bidi-font-size:11.0pt'><o:p></o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1341,21 +1659,21 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><span style='font-size:11.0pt'>размещает целое число
-  картинок (без разрезов, но с растягиванием)<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt'>размещает целое число картинок
+  (без разрезов, но с растягиванием)<o:p></o:p></span></p>
   <p class=MsoNormal><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:4'>
+ <tr style='mso-yfti-irow:10'>
   <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
   mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=a0 style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1364,12 +1682,12 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:64'><span class=SpellE><span
+  <p class=a0 style='mso-yfti-cnfc:64'><span class=SpellE><span
   style='mso-bidi-font-size:11.0pt'>background-size</span></span><span
   style='mso-bidi-font-size:11.0pt'>: <span class=SpellE>contain</span><span
   style='mso-tab-count:1'> </span><o:p></o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1383,15 +1701,15 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   элемента может остаться пустое пространство<o:p></o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:5'>
+ <tr style='mso-yfti-irow:11'>
   <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
   mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=a0 style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1399,10 +1717,10 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a><span class=SpellE><span style='mso-bidi-font-size:11.0pt'>cover</span></span><span
+  <p class=a0><span class=SpellE><span style='mso-bidi-font-size:11.0pt'>cover</span></span><span
   style='mso-bidi-font-size:11.0pt'><o:p></o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1410,22 +1728,22 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><span style='font-size:11.0pt'>установит картинку так,
-  чтобы она полностью заняла элемент, но <span class=SpellE>отчатси</span> не
+  <p class=MsoNormal><span style='font-size:11.0pt'>установит картинку так, чтобы
+  она полностью заняла элемент, но <span class=SpellE>отчатси</span> не
   поместится<o:p></o:p></span></p>
   <p class=MsoNormal><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:6'>
+ <tr style='mso-yfti-irow:12'>
   <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
   mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=a0 style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1434,11 +1752,12 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
-  11.0pt;mso-ansi-language:EN-US'>background-attachment: scroll</span><span
+  <p class=a0 style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;color:red;mso-ansi-language:EN-US'>background-attachment</span><span
+  lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US'>: scroll</span><span
   style='mso-bidi-font-size:11.0pt'><o:p></o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1456,15 +1775,15 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:7'>
+ <tr style='mso-yfti-irow:13'>
   <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
   mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=a0 style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1472,14 +1791,15 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a><span lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:
-  EN-US'>background-origin: padding-box<o:p></o:p></span></p>
-  <p class=a><span lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:
+  <p class=a0><span lang=EN-US style='mso-bidi-font-size:11.0pt;color:red;
+  mso-ansi-language:EN-US'>background-origin</span><span lang=EN-US
+  style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US'>: padding-box<o:p></o:p></span></p>
+  <p class=a0><span lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:
   EN-US'>border-box<o:p></o:p></span></p>
-  <p class=a><span class=SpellE><span style='mso-bidi-font-size:11.0pt'>content-box</span></span><span
+  <p class=a0><span class=SpellE><span style='mso-bidi-font-size:11.0pt'>content-box</span></span><span
   style='mso-bidi-font-size:11.0pt'><o:p></o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1493,17 +1813,17 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   <p class=MsoNormal><span style='font-size:11.0pt'>относительно контента<o:p></o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:8'>
+ <tr style='mso-yfti-irow:14'>
   <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
   mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:68'><b><span lang=EN-US style='mso-bidi-font-size:
+  <p class=a0 style='mso-yfti-cnfc:68'><b><span lang=EN-US style='mso-bidi-font-size:
   11.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></b></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1512,11 +1832,11 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
+  <p class=a0 style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
   11.0pt;mso-ansi-language:EN-US'>border-image: <span class=SpellE>url</span>(./images/img1.png)
   40 round <span class=SpellE>round</span>;<o:p></o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1530,15 +1850,15 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   стороной 40 <span class=SpellE>pxl</span><o:p></o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:9'>
+ <tr style='mso-yfti-irow:15'>
   <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
   mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=a0 style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1546,10 +1866,10 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a><span class=SpellE><span style='mso-bidi-font-size:11.0pt'>transparent</span></span><span
+  <p class=a0><span class=SpellE><span style='mso-bidi-font-size:11.0pt'>transparent</span></span><span
   style='mso-bidi-font-size:11.0pt'><o:p></o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1562,17 +1882,17 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   <p class=MsoNormal><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:10'>
+ <tr style='mso-yfti-irow:16'>
   <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
   mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:68'><b><span lang=EN-US style='mso-bidi-font-size:
+  <p class=a0 style='mso-yfti-cnfc:68'><b><span lang=EN-US style='mso-bidi-font-size:
   11.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></b></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1581,10 +1901,10 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
+  <p class=a0 style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
   11.0pt;mso-ansi-language:EN-US'>border-radius: 70px 50px 70px 40px/20px;<o:p></o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1600,15 +1920,15 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   style='font-size:11.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:11'>
+ <tr style='mso-yfti-irow:17'>
   <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
   mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=a0 style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1616,12 +1936,12 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a><span class=SpellE><span style='mso-bidi-font-size:11.0pt'>outline</span></span><span
+  <p class=a0><span class=SpellE><span style='mso-bidi-font-size:11.0pt'>outline</span></span><span
   style='mso-bidi-font-size:11.0pt'>: 2px <span class=SpellE>solid</span> <span
   class=SpellE>blue</span>;</span><span lang=EN-US style='mso-bidi-font-size:
   11.0pt;mso-ansi-language:EN-US'><o:p></o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1634,16 +1954,16 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   <p class=MsoNormal><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:12'>
+ <tr style='mso-yfti-irow:18'>
   <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
   mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=a0 style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1652,11 +1972,12 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
-  11.0pt;mso-ansi-language:EN-US'>border-right: 3px dotted <span class=SpellE>darkorange</span>;<span
-  style='mso-tab-count:1'> </span><o:p></o:p></span></p>
+  <p class=a0 style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;color:red;mso-ansi-language:EN-US'>border-right</span><span
+  lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US'>: 3px
+  dotted <span class=SpellE>darkorange</span>;<span style='mso-tab-count:1'> </span><o:p></o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1677,16 +1998,16 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   style='font-size:11.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:13'>
+ <tr style='mso-yfti-irow:19'>
   <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
   mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:4'><b><span lang=EN-US style='mso-bidi-font-size:
+  <p class=a0 style='mso-yfti-cnfc:4'><b><span lang=EN-US style='mso-bidi-font-size:
   11.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></b></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1694,13 +2015,13 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a><span lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:
+  <p class=a0><span lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:
   EN-US'>li { list-style-image: <span class=SpellE>url</span>(&lt;</span><span
   style='mso-bidi-font-size:11.0pt'>адрес</span><span style='mso-bidi-font-size:
   11.0pt;mso-ansi-language:EN-US'> </span><span style='mso-bidi-font-size:11.0pt'>картинки</span><span
   lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US'>&gt;)}<o:p></o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1712,16 +2033,16 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   маркер в списке<o:p></o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:14'>
+ <tr style='mso-yfti-irow:20'>
   <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
   mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=a0 style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1730,12 +2051,14 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
-  11.0pt;mso-ansi-language:EN-US'>list-style-position: outside<o:p></o:p></span></p>
-  <p class=a style='mso-yfti-cnfc:64'><span style='mso-bidi-font-size:11.0pt'>или</span><span
-  style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US'> <span lang=EN-US>inside<o:p></o:p></span></span></p>
+  <p class=a0 style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;color:red;mso-ansi-language:EN-US'>list-style-position</span><span
+  lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US'>:
+  outside<o:p></o:p></span></p>
+  <p class=a0 style='mso-yfti-cnfc:64'><span style='mso-bidi-font-size:11.0pt'>или</span><span
+  lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US'> inside<o:p></o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1749,16 +2072,15 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   отодвигаться<o:p></o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:15'>
+ <tr style='mso-yfti-irow:21'>
   <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
   mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:4'><b><span lang=EN-US style='mso-bidi-font-size:
-  11.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=a0 style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1766,12 +2088,17 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a><span lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:
-  EN-US'>@font-face { font-family:<span style='mso-spacerun:yes'>  </span>…;
-  font-style: …; src: <span class=SpellE>url</span>(…), <span class=SpellE>url</span>(…);<span
+  <p class=a0><span lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:
+  EN-US'>@font-face { </span><span lang=EN-US style='mso-bidi-font-size:11.0pt;
+  color:red;mso-ansi-language:EN-US'>font-family</span><span lang=EN-US
+  style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US'>:<span
+  style='mso-spacerun:yes'>  </span>…; </span><span lang=EN-US
+  style='mso-bidi-font-size:11.0pt;color:red;mso-ansi-language:EN-US'>font-style</span><span
+  lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US'>: …;
+  src: <span class=SpellE>url</span>(…), <span class=SpellE>url</span>(…);<span
   style='mso-spacerun:yes'>  </span>}<o:p></o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1790,16 +2117,16 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   style='font-size:11.0pt'>, например), чтобы страница хорошо отображалась<o:p></o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:16'>
+ <tr style='mso-yfti-irow:22'>
   <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
   mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=a0 style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1808,9 +2135,250 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:64'><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  <p class=a0 style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;color:red;mso-ansi-language:EN-US'>float</span><span lang=EN-US
+  style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US'>: <o:p></o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'>Свойство,
+  перемещающее элемент куда надо и ставящее его на уровень выше обычных
+  элементов.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'>Текст
+  будет отодвигаться, другие элементы будут игнорировать, иногда находиться ПОД
+  ним. Другие элементы со свойством </span><span lang=EN-US style='font-size:
+  11.0pt;font-family:"Verdana",sans-serif;color:#7030A0;mso-ansi-language:EN-US'>float</span><span
+  lang=EN-US style='font-size:11.0pt'> </span><span style='font-size:11.0pt'>будут
+  занимать оставшееся пространство, уступив первому (как кубики).<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span class=GramE><span
+  style='font-size:11.0pt;font-family:"Verdana",sans-serif;color:#7030A0'>”</span><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Verdana",sans-serif;
+  color:#7030A0;mso-ansi-language:EN-US'>none</span></span><span
+  style='font-size:11.0pt;font-family:"Verdana",sans-serif;color:#7030A0'>”</span><span
+  style='font-size:11.0pt'> отменяет обтекание<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt;
+  font-family:"Verdana",sans-serif;color:#7030A0'>“</span><span lang=EN-US
+  style='font-size:11.0pt;font-family:"Verdana",sans-serif;color:#7030A0;
+  mso-ansi-language:EN-US'>left</span><span style='font-size:11.0pt;font-family:
+  "Verdana",sans-serif;color:#7030A0'>”<span style='mso-spacerun:yes'>   
+  </span>”</span><span lang=EN-US style='font-size:11.0pt;font-family:"Verdana",sans-serif;
+  color:#7030A0;mso-ansi-language:EN-US'>right</span><span style='font-size:
+  11.0pt;font-family:"Verdana",sans-serif;color:#7030A0'>”</span><span
+  style='font-size:11.0pt'><span style='mso-spacerun:yes'>   </span>- указывает
+  направление выравнивания<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:23'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0 style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0><span lang=EN-US style='mso-bidi-font-size:11.0pt;color:red;
+  mso-ansi-language:EN-US'>overflow</span><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US'>:</span><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt'> </span><span lang=EN-US style='mso-bidi-font-size:11.0pt;mso-ansi-language:
+  EN-US'>auto;<o:p></o:p></span></p>
+  </td>
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt'>При выходе содержимого за
+  границы блока, блок либо скрывает содержимое, либо показывает полосу
+  прокрутки. </span><span lang=EN-US style='font-size:11.0pt;font-family:"Verdana",sans-serif;
+  color:#7030A0;mso-ansi-language:EN-US'>auto</span><span style='font-size:
+  11.0pt'> - устанавливает полосу только если она нужна на экране. </span><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Verdana",sans-serif;
+  color:#7030A0;mso-ansi-language:EN-US'>scroll</span><span style='font-size:
+  11.0pt'> - постоянные полосы прокрутки. </span><span lang=EN-US
+  style='font-size:11.0pt;font-family:"Verdana",sans-serif;color:#7030A0;
+  mso-ansi-language:EN-US'>hidden</span><span style='font-size:11.0pt'> - удалит
+  полосы прокрутки и увидеть вышедший за границы контент не выйдет.<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt'>Позволяет, например, родительскому
+  элементу занять всю ширину, выглянув из-за дочерних элементов, его
+  перекрывающих.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:24'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0 style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0 style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;color:red;mso-ansi-language:EN-US'>clear</span><span style='mso-bidi-font-size:
+  11.0pt'>: </span><span lang=EN-US style='mso-bidi-font-size:11.0pt;
+  mso-ansi-language:EN-US'>left</span><span style='mso-bidi-font-size:11.0pt'>;<o:p></o:p></span></p>
+  </td>
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'>Переводит
+  элемент на след. строку и прижимает влево.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:25'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0 style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0><span class=SpellE><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;color:red;mso-ansi-language:EN-US'>contenteditable</span></span><span
+  style='mso-bidi-font-size:11.0pt'>=”</span><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US'>true</span><span style='mso-bidi-font-size:
+  11.0pt'>”<o:p></o:p></span></p>
+  </td>
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt'>Позволяет пользователю установить
+  курсор и отредактировать текст<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:26'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0 style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0 style='mso-yfti-cnfc:64'><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;color:red;mso-ansi-language:EN-US'>display</span><span lang=EN-US
+  style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US'>: none;<o:p></o:p></span></p>
+  </td>
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'>Элемент
+  не отображается, просто пропускается<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:27'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0 style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0><span lang=EN-US style='mso-bidi-font-size:11.0pt;color:red;
+  mso-ansi-language:EN-US'>visibility</span><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US'>: hidden;<o:p></o:p></span></p>
+  </td>
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt'>Элемент не отображается, но
+  под него резервируется место, которое пустует.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:28'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0 style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0 style='mso-yfti-cnfc:64'><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1822,15 +2390,15 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:17'>
+ <tr style='mso-yfti-irow:29'>
   <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
   mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=a0 style='mso-yfti-cnfc:4'><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1838,9 +2406,74 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  <p class=a0><span class=SpellE><span lang=EN-US style='mso-bidi-font-size:
+  11.0pt;mso-ansi-language:EN-US'>novalidate</span></span><span lang=EN-US
+  style='mso-bidi-font-size:11.0pt;mso-ansi-language:EN-US'><o:p></o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt'>отключает <span
+  class=SpellE>валидацию</span> <span style='mso-spacerun:yes'> </span>формы, позволяет
+  отправить на сервер любые введённые пользователем данные.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:30'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0 style='mso-yfti-cnfc:68'><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0 style='mso-yfti-cnfc:64'><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:31'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0 style='mso-yfti-cnfc:4'><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1851,16 +2484,16 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   <p class=MsoNormal><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:18'>
+ <tr style='mso-yfti-irow:32'>
   <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
   mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=a0 style='mso-yfti-cnfc:68'><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1869,9 +2502,9 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:64'><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  <p class=a0 style='mso-yfti-cnfc:64'><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1883,15 +2516,15 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:19'>
+ <tr style='mso-yfti-irow:33'>
   <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
   mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=a0 style='mso-yfti-cnfc:4'><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1899,9 +2532,9 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  <p class=a0><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1912,16 +2545,16 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   <p class=MsoNormal><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:20'>
+ <tr style='mso-yfti-irow:34'>
   <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
   mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=a0 style='mso-yfti-cnfc:68'><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1930,9 +2563,9 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:64'><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  <p class=a0 style='mso-yfti-cnfc:64'><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1944,15 +2577,15 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:21'>
+ <tr style='mso-yfti-irow:35'>
   <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
   mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:4'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=a0 style='mso-yfti-cnfc:4'><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1960,9 +2593,9 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  <p class=a0><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1973,16 +2606,16 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   <p class=MsoNormal><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:22;mso-yfti-lastrow:yes'>
+ <tr style='mso-yfti-irow:36'>
   <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
   mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
   mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
   mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:68'><b><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=a0 style='mso-yfti-cnfc:68'><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=303 valign=top style='width:227.05pt;border-top:none;border-left:
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -1991,9 +2624,9 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=a style='mso-yfti-cnfc:64'><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  <p class=a0 style='mso-yfti-cnfc:64'><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
-  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
   none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
   mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
   background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
@@ -2003,6 +2636,35 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
   background1;mso-border-themeshade:191;background:#F2F2F2;mso-background-themecolor:
   background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal style='mso-yfti-cnfc:64'><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:37;mso-yfti-lastrow:yes'>
+  <td width=19 valign=top style='width:13.95pt;border:solid #BFBFBF 1.0pt;
+  mso-border-themecolor:background1;mso-border-themeshade:191;border-top:none;
+  mso-border-top-alt:solid #BFBFBF .5pt;mso-border-top-themecolor:background1;
+  mso-border-top-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0 style='mso-yfti-cnfc:4'><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=237 valign=top style='width:177.45pt;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=a0><span style='mso-bidi-font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=416 valign=top style='width:11.0cm;border-top:none;border-left:
+  none;border-bottom:solid #BFBFBF 1.0pt;mso-border-bottom-themecolor:background1;
+  mso-border-bottom-themeshade:191;border-right:solid #BFBFBF 1.0pt;mso-border-right-themecolor:
+  background1;mso-border-right-themeshade:191;mso-border-top-alt:solid #BFBFBF .5pt;
+  mso-border-top-themecolor:background1;mso-border-top-themeshade:191;
+  mso-border-left-alt:solid #BFBFBF .5pt;mso-border-left-themecolor:background1;
+  mso-border-left-themeshade:191;mso-border-alt:solid #BFBFBF .5pt;mso-border-themecolor:
+  background1;mso-border-themeshade:191;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
   </td>
  </tr>
 </table>
@@ -2010,20 +2672,16 @@ style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
 <p class=MsoNormal><span style='mso-tab-count:3'>                                    </span><span
-style='mso-spacerun:yes'> </span><o:p></o:p></p>
+style='mso-spacerun:yes'> </span></p>
 
-<p class=MsoNormal><span style='mso-tab-count:3'>                                    </span><span
-style='mso-tab-count:3'>                                   </span><o:p></o:p></p>
+<p class=MsoNormal><span style='mso-tab-count:6'>                                                                       </span></p>
 
-<p class=MsoNormal><span style='mso-tab-count:4'>                                               </span><o:p></o:p></p>
+<p class=MsoNormal><span style='mso-tab-count:4'>                                               </span></p>
 
-<p class=MsoNormal><span style='mso-tab-count:4'>                                               </span><o:p></o:p></p>
+<p class=MsoNormal><span style='mso-tab-count:4'>                                               </span></p>
 
-<p class=MsoNormal><span style='mso-tab-count:2'>                        </span><span
-style='mso-tab-count:6'>                                                                       </span><span
-style='mso-tab-count:3'>                                   </span><span
-style='mso-tab-count:4'>                                               </span><span
-style='mso-tab-count:1'>            </span><o:p></o:p></p>
+<p class=MsoNormal><span style='mso-tab-count:15'>                                                                                                                                                                                 </span><span
+style='mso-tab-count:1'>            </span></p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
