@@ -2,7 +2,11 @@ python -m venv venv 			- создать папку под именем venv с виртуальной средой Pyth
 venv/Scripts/activate				- активировать виртуальную среду в папке venv. Возможно, вместо папки Source будет папка bin.
 
 django-admin startproject first .           - создать проект под именем first
+
+/path/to/virtualenv/Scripts/activate 		- активировать энвайромент.
 python manage.py runserver			- запустить сервер
+
+
 
 django-admin startapp demo			- создать приложение по имени demo в проекте.
 После этого надо прописать его в settings.py в INSTALLED APPS: просто добавить название папки в кавычках (через точку после названия проекта, если manage.py лежит в одной папке с проектом):

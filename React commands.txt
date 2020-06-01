@@ -1,5 +1,13 @@
-npm create-react-app		-создать папку-проиложение на React
+npm create-react-app		-создать папку-проиложение на React (как вариант, начать с npx)
 npm start 			-запустить сервер разработки
+Ctrl + C			- отключить сервер
 npm run build			- собирает приложение в финальное состояние для продажи
 npm test 			- запускает тесты
+
+npm install react-router-dom --save-dev		- установить роутеры с сохранением в файле dependencies
+npm install react-router-dom			- установим роутеры
+npm install react-cookie			- установим куки
+
+
+
 
