@@ -9,5 +9,10 @@ npm install react-router-dom			- установим роутеры
 npm install react-cookie			- установим куки
 
 
+Deployment:
+npm install -g expo-cli			- установка приложения Expo для тестирования нашего приложения в Android и IOS
+cd <желаемая папка для нашего приложения>
+expo init <имя нашего front-end приложения>	- создание фронт-енд приложения в expo
+Expo скачать на телефоны и таблеты и подключиться к нашему expo-приложению.
 
 
