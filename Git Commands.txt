@@ -11,6 +11,7 @@ git checkout <hello.html>				- отбэкапиться на версию до �
 
 git status                                       - посмотреть, что назначено к выгрузке в Локалку
 git remote add origin https://github.com/Antohnio123/Antohnio.git        - подключиться к моему репозиторию
+git remote set-url origin new.git.url/here
 git clone https://github.com/aanikin/Python                         - скачать папку с чужого репозитория
 git remote -v                                          - узнать, к каким репозиториям подключен
 
