@@ -2,8 +2,6 @@ The Linux command line for beginners
 https://tutorials.ubuntu.com/tutorial/command-line-for-beginners
 Ubuntu Server 18.04 Essentials
 https://www.youtube.com/playlist?list=PLT98CRl2KxKEKvszPW-d4wYLo2fxEJYK
-ИСПОЛЬЗУЕМ TAB для автозаполнения команд!
-sudo !!			- Повторить последнюю комнаду, но с sudo:  
 
 
 УСТАНОВКА И ДЕИНСТАЛЛЯЦИЯ ПАКЕТОВ
@@ -14,6 +12,12 @@ sudo apt-get remove <name of module>
 
 
 ТЕРМИНАЛ
+ИСПОЛЬЗУЕМ TAB для автозаполнения команд!
+sudo !!			- Повторить последнюю комнаду, но с sudo:  
+Масштаб (change font size):  Ctrl+'+'  или Ctrl+9
+Shift+C     - Копировать (Copy)
+Shift+Insert  - Вставить скопированную строку в терминал  (Paste)
+
 Ctrl+Alt+F3 - переход в текстовый интерфейс. Можно переключаться между терминалами, проставляя третьей кнопкой F4, F5, F6...
 Вернуться обратно в GUI: Ctrl+Alt+F1
 Ctrl+С - остановить процесс
