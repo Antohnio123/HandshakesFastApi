@@ -7,6 +7,10 @@ git log --oneline                                      - посмотреть л
 git reset <кусок изменённого объекта, например HEAD hello.html>  -  убрать из индексации часть изменений (после случайного git add .)
 git checkout <hello.html>				- отбэкапиться на версию до коммита с hello.html
 
+git config --global user.name "AntAlMakarov"		- установить имя своего юзера
+git config --global user.email "AntAlMakarov@greenatom.ru"		- установить имя своего юзера
+git remote add origin https://gitlab.rosatom.local/rpa_dev/error_handler.git    - подключиться к репозиторию "error_handler", созданному на гит.
+
 
 
 git status                                       - посмотреть, что назначено к выгрузке в Локалку
@@ -67,41 +71,69 @@ $ git rebase master
 *.log
 *.pdf
 *.xls
+
 # Игнорирование файла во ВСЕХ директориях
 # Например /params/db/config.php, /config.php
 config.php
+
 # Игнорирование конкретного файла ТОЛЬКО в корне проекта
 # (корнём считается расположение файла .gitignore)
 # Например НЕ БУДЕТ проигнорирован файл /db/config.php
 /config.php
+
 # Игнорирование конкретного файла ТОЛЬКО в указанной директории
 # Например НЕ БУДЕТ проигнорирован файл /prod/params/config.php
 /params/config.php
+
 # ---- ДИРЕКТОРИИ ----
 # Игнорирование всех файлов и папок ТОЛЬКО в конкретной директории(включая поддиректории и файлы в них)
 # Например /images/user.jpg, /images/company/logo.png
 # НЕ БУДУТ проигнорированы файлы и папки /prod/images/user.jpg
 /images/*
+
 # Игнорирование всех файлов и папок в ЛЮБЫХ директориях с указанным именем
 # Например /images/user.jpg, /core/images/user.jpg
 images/*
+
 # Игнорирование ВСЕХ html-файлов в ОДНОЙ КОНКРЕТНОЙ директории(НЕ ВКЛЮЧАЯ поддиректории)
 # Например /private/index.html
 # НЕ БУДУТ проигнорированы файлы в /private/ivan/index.html
 /private/*.html
+
 # Игнорирование ВСЕХ html-файлов в КОНКРЕТНОЙ директории ВКЛЮЧАЯ поддиректории
 # Например /private/info.html, /private/users/ivan/info.html
 /private/**/*.html
+
 # ---- РАЗНОЕ ----
 # Исключение из игнорирования
 # Игнорирование ВСЕХ файлов и папок внутри директории /secret,
 # за исключением файла /secret/free.txt, он не будет проигнорирован
 /secret/*
 !/secret/free.txt
+
 # Игнорирование файла с именем, содержащим спецсимволы
 # Например !readme!.txt
 \!readme!.txt
+
 # Игнорирование всех JPG и JPEG файлов внутри директорий,
 # которые начинаются на "h" и МОГУТ содержать ещё один символ после
 # Например /images/h4/user.jpg, /images/h/company.jpeg
 /images/h?/*.jp?g
+
+
+
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!script.pl
+!template.latex
+# etc...
+
+# ...even if they are in subdirectories
+!*/
+
+# if the files to be tracked are in subdirectories
+!*/a/b/file1.txt
+!*/a/b/c/*

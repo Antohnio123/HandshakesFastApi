@@ -195,6 +195,7 @@ logout				- выйти из текущего пользователя (root, например)
 env | grep proxy		- узнать свой proxy-сервер
 ifconfig					- узнать ip-адрес сервера
 если команда не найдена, то sudo apt install net-tools (https://losst.ru/oshibka-ifconfig-komanda-ne-najdena)
+netstat -antu			- увидеть занятые порты на локальной машине
 
 
 ПРАВА
